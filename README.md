@@ -1,195 +1,225 @@
-# Curso: IA aplicada a Redes (ai-networking)
+# IA aplicada a Redes de Computadores (AI Networking)
 
-Bem-vindo ao repositório do curso "IA aplicada a Redes". Aqui organizamos materiais didáticos, laboratórios e notebooks que integram conceitos de redes de computadores (com Cisco Packet Tracer) e técnicas de Inteligência Artificial para monitoramento, automação e detecção de anomalias.
+> **Curso prático e progressivo** que integra **Redes de Computadores (Cisco Packet Tracer)** com **Inteligência Artificial aplicada à operação, monitoramento e automação de redes**.
 
-Estrutura:
-- labs/: laboratórios Packet Tracer + instruções
-- notebooks/: notebooks Jupyter com pipelines e modelos de ML
-- data/: datasets de exemplo
-- slides/: material de apoio
-- project_final/: template e critérios de avaliação
+Este repositório foi pensado como **material vivo de estudo**, documentação técnica e base para aulas, labs e projetos, seguindo boas práticas de versionamento e organização no GitHub.
 
-Como começar:
-1. Instale o Cisco Packet Tracer.
-2. Tenha Python 3.9+ e Jupyter.
-3. Clone o repositório e siga `setup.md` para criar o ambiente virtual.
-4. Abra `labs/01_basics/lab_instructions.md` e o notebook inicial.
+---
 
-Contribuições:
-- Use `CONTRIBUTING.md` para padrão de commits e organização dos labs.
-- Mantenha os nomes dos labs com prefixo numérico (para ordenação).
+## 🎯 Objetivo do Curso
 
-Contato: vaamonde
+Capacitar estudantes e profissionais de redes a:
 
-# Syllabus resumido — IA aplicada a Redes
+* Compreender e configurar **redes modernas** (switching, roteamento, VLANs, NAT, ACLs, serviços).
+* Coletar e analisar **dados de rede** (logs, fluxos, PCAPs, métricas).
+* Aplicar **técnicas de IA / Machine Learning** para:
 
-Duração sugerida: 12 semanas (1 módulo/semana + projeto final). Cada módulo contém:
-- Aula teórica
-- Lab Packet Tracer (arquivo .pkt + passo a passo)
-- Notebook de análise/IA (Python)
+  * Detecção de anomalias
+  * Classificação de tráfego
+  * Apoio à tomada de decisão
+* Automatizar tarefas de rede com **Python e APIs**.
+* Entender como IA se encaixa em **SDN, Telemetria e Intent-Based Networking**.
 
-Módulos:
-0. Onboarding e setup
-1. Fundamentos de redes + subnetting (Packet Tracer)
-2. Switching e VLANs
-3. Roteamento (estático, OSPF)
-4. NAT, DHCP, services
-5. Segurança básica: ACLs
-6. Captura e análise de pacotes (Wireshark)
-7. Telemetria / NetFlow / SNMP (coleta)
-8. Automação com Python (Netmiko/REST)
-9. SDN e arquiteturas modernas
-10. ML: detecção de anomalias (IsolationForest)
-11. ML: classificação de tráfego (RandomForest)
-12. Projeto final (integração, dashboard, relatório)
+---
 
-Critérios de avaliação:
-- Labs práticos (50%)
-- Notebooks/mini-projetos (20%)
-- Projeto final (30%)
+## 👥 Público-alvo
 
-Recursos e referências:
-- Cisco Packet Tracer / Cisco Networking Academy
-- Scikit-learn, pandas, Jupyter
-- Tutoriais: Cisco DevNet, documentação de Netmiko
+* Estudantes de cursos **Técnicos**, **Graduação** ou **Formação Profissional** em Redes.
+* Profissionais de Infraestrutura, Redes, NOC ou DevOps.
+* Pessoas que já estudam redes e querem dar o **próximo passo rumo à automação e IA**.
 
-Observação: para labs que exijam dispositivos que o Packet Tracer não suporta (ex.: NetFlow real, OpenFlow), indicaremos alternativas (Mininet, GNS3 ou ambientes em cloud/sandbox).
+### Pré-requisitos
 
-Resumo rápido da abordagem
+* Conceitos básicos de redes (OSI, TCP/IP, IPv4).
+* Noções básicas de Python (variáveis, listas, dicionários, leitura de arquivos).
+* Vontade de aprender na prática 😉.
 
-Usar Packet Tracer para ensinar os conceitos de redes modernas (camadas, roteamento, switching, VLANs, NAT, ACLs, DHCP, QoS, troubleshooting).
-Paralelamente, introduzir componentes de IA aplicados a redes: monitoramento inteligente, detecção de anomalias, classificação de tráfego, automação via scripts/REST/NETCONF/RESTCONF, SDN e telemetria.
-Labs práticos: cada módulo terá um lab Packet Tracer (topologias, exercícios de configuração) + um lab em Python/Jupyter (captura/análise de logs, ML simples, automação).
-Ferramentas complementares quando Packet Tracer não for suficiente: Wireshark, Mininet/GNS3, Docker, Jupyter, bibliotecas Python (scikit-learn, pandas, tensorflow/pytorch opcional).
-Público-alvo e pré-requisitos
-Público: estudantes de graduação/Técnicos em redes e profissionais que queiram integrar IA à operação de redes.
-Pré-requisitos:
-Conceitos básicos de redes (modelo OSI, endereçamento IPv4).
-Noções de programação (Python básico: listas, dicionários, leitura de ficheiros).
-Instalar Packet Tracer (versão recomendada atual) e Python 3.9+.
-Objetivos de aprendizagem (gerais)
-Entender arquiteturas e protocolos de redes modernas.
-Saber configurar e diagnosticar redes em Packet Tracer.
-Coletar dados de rede (logs, NetFlow/sFlow/PCAP) e preparar pipelines simples de dados.
-Aplicar modelos básicos de ML para detecção de anomalias e classificação de tráfego.
-Automatizar tarefas de rede com scripts Python e APIs (ex.: automação de configuração e coleta).
-Compreender SDN/telemetria e como IA se aplica à operação de redes (assurance, intent-based networking).
-Estrutura modular sugerida (12 semanas / 12 módulos)
-Módulo 0 — Onboarding e setup do ambiente (pré-curso, 1 sessão)
+---
 
-Objetivos: instalar Packet Tracer, Python, Jupyter; clonar repositório; conhecer estrutura de pastas.
-Entregável: ambiente pronto + exercício simples “ping” em PT.
-Módulo 1 — Fundamentos de redes com Packet Tracer
+## 🧠 Abordagem Didática
 
-Conteúdo: camadas OSI/TCP-IP, endereçamento IPv4, sub-redes.
-Lab PT: “01_basics_subnetting.pkt” — construir LAN simples, configurar IPs, verificar conectividade.
-Lab AI/Notebook: carregar CSV de logs sintéticos; explorar com pandas.
-Módulo 2 — Switching e VLANs
+Cada módulo segue sempre a mesma lógica:
 
-Conteúdo: VLANs, trunking, STP básico.
-Lab PT: “02_vlans_trunk.pkt” — criar múltiplas VLANs, acessar entre VLANs com router-on-a-stick.
-Notebook: extrair métricas de VLANs (tráfego por VLAN) e visualização.
-Módulo 3 — Roteamento estático e dinâmico
+1. **Conceito de Redes** (teoria essencial)
+2. **Lab no Cisco Packet Tracer** (.pkt + instruções)
+3. **Notebook em Python/Jupyter** aplicando análise de dados ou IA
 
-Conteúdo: rotas estáticas, OSPF/ EIGRP (introdução).
-Lab PT: “03_routing_ospf.pkt”.
-Notebook: gerar topologia simulada e analisar caminhos (matriz de latências simuladas).
-Módulo 4 — NAT, DHCP, e serviços de borda
+> Quando o Packet Tracer não suportar determinado recurso, são indicadas **alternativas reais** (Wireshark, Mininet, GNS3, Docker ou datasets públicos).
 
-Conteúdo: NAT estático/Dynamic, DHCP server.
-Lab PT: “04_nat_dhcp.pkt”.
-Notebook: análise de logs de NAT (mapear IPs internos/externos).
-Módulo 5 — Segurança básica: ACLs, AAA (introdução)
+---
 
-Conteúdo: ACLs de roteador, ACLs reflexivas, conceitos de AAA.
-Lab PT: “05_acl_security.pkt”.
-Notebook de AI: classificador simples para distinguir tráfego legítimo vs suspeito (dados sintéticos).
-Módulo 6 — Captura e análise de pacotes (Wireshark + Packet Tracer)
+## 🗂️ Estrutura do Repositório
 
-Conteúdo: filtros, análise de handshake, HTTP/TCP troubleshooting.
-Lab: exportar PCAP do Packet Tracer (ou usar wireshark) e extrair features.
-Notebook: construir dataset de features TCP/UDP para ML.
-Módulo 7 — Telemetria, SNMP, NetFlow/NetStream (introdução)
+```text
+.
+├── README.md
+├── syllabus.md
+├── setup.md
+├── labs/
+│   ├── 01_basics/
+│   │   ├── 01_basics_subnetting.pkt
+│   │   ├── lab_instructions.md
+│   │   └── solution.md
+│   ├── 02_vlans/
+│   │   ├── 02_vlans_trunk.pkt
+│   │   ├── lab_instructions.md
+│   │   └── analysis_notebook.ipynb
+│   └── ...
+├── notebooks/
+│   ├── common_utils.py
+│   ├── 10_anomaly_isolation.ipynb
+│   └── ...
+├── data/
+│   └── sample_flows/
+├── slides/
+├── assignments/
+├── project_final/
+├── CONTRIBUTING.md
+└── LICENSE
+```
 
-Conteúdo: como coletar métricas: SNMP, sFlow/NetFlow, streaming telemetry.
-Lab: simular fluxo de logs; configurar exportadores (quando possível).
-Notebook: pipeline para ingestão de NetFlow-like (parquet/csv) e análise.
-Módulo 8 — Automatização com Python e APIs de dispositivos
+---
 
-Conteúdo: Netmiko, Paramiko, requests (RESTCONF/NETCONF), Ansible (opcional).
-Lab: script para coletar configuração e aplicar mudança simples (backup/rollback).
-Notebook: automatizar coleta e enviar ao pipeline de ML.
-Módulo 9 — Conceitos de SDN e intent-based networking
+## 🚀 Como Começar
 
-Conteúdo: SDN controladores (conceito), OpenFlow, arquiteturas Cisco (introdução).
-Lab: Mininet rápido (se possível) e discussão; Packet Tracer: topologia controlada.
-Notebook: usar telemetria para gerar insights de intenção vs estado real.
-Módulo 10 — Aprendizado de máquina aplicado: detecção de anomalias
+1. Instale o **Cisco Packet Tracer** (Cisco Networking Academy).
+2. Instale **Python 3.9+**.
+3. Clone este repositório:
 
-Conteúdo: features, normalização, modelos não-supervisionados (Isolation Forest, DBSCAN).
-Lab: treinar modelo com tráfego normal e injetar anomalias; avaliar.
-Entregável: modelo em notebook + relatório.
-Módulo 11 — Aprendizado supervisionado: classificação de tráfego / QoS decisions
+   ```bash
+   git clone https://github.com/seu-usuario/ai-networking.git
+   ```
+4. Siga o arquivo [`setup.md`](setup.md) para criar o ambiente Python.
+5. Comece pelo lab:
 
-Conteúdo: classificação de aplicações, feature engineering, validação.
-Lab: dataset de fluxos (ou sintético), treinar classificador (RandomForest) para identificar aplicações.
-Entregável: notebook com endpoint simples que recebe fluxo e retorna label.
-Módulo 12 — Projeto final integrador (2 semanas podem ser melhores)
+   ```text
+   labs/01_basics/lab_instructions.md
+   ```
 
-Proposta: projeto onde a turma constrói topologia em Packet Tracer/Mininet, coleta métricas, treina modelo para detectar anomalias ou gerir rotações/automações, e entrega dashboard + relatório.
-Critérios: infraestrutura, qualidade dos dados, modelo, automação demonstrável, documentação.
-Exemplos de atividades práticas (detalhes de labs)
-Lab Packet Tracer “02_vlans_trunk.pkt” — passo a passo:
-Construir switches SW1, SW2, dois routers e 3 PC por VLAN.
-Configurar VLAN 10/20/30; configurar trunk entre switches; configurar router-on-a-stick.
-Validar comunicação inter-VLAN com ping e traceroute; demonstrar isolamento errado e corrigir.
-Notebook “02_vlans_analysis.ipynb”:
-Ler CSV de tráfego por porta (tempo, src_ip, dst_ip, bytes, vlan).
-Calcular top talkers, tráfego por VLAN, plotar time series.
-Lab AI “10_anomaly_isolation.ipynb”:
-Input: CSV de features por intervalo (bytes, pkts, flow_dur, ports).
-Aplicar IsolationForest; marcar anomalias; análise de falsos positivos; visualização t-SNE.
-Ferramentas e ambiente recomendado
-Packet Tracer (para simulações Cisco; excelente para labs iniciais).
-Wireshark (análise PCAP).
-Python 3.9+; ambiente virtual venv/conda.
-JupyterLab / Jupyter Notebook.
-Bibliotecas Python: pandas, numpy, scikit-learn, matplotlib/seaborn, scapy (opcional), netmiko, paramiko, requests, pyshark (para leitura PCAP), tensorflow/pytorch (se quiser DL).
-Mininet/GNS3 (apenas para labs avançados que o Packet Tracer não suporta).
-Repositório contendo: .pkt files, notebooks, datasets, slides e scripts de automação.
-Organização sugerida do repositório (tree)
-README.md
-syllabus.md
-setup.md (instruções de instalação)
-labs/
-01_basics/
-01_basics_subnetting.pkt
-lab_instructions.md
-solution.md
-02_vlans/
-02_vlans_trunk.pkt
-lab_instructions.md
-analysis_notebook.ipynb
-...
-notebooks/
-common_utils.py
-10_anomaly_isolation.ipynb
-data/
-sample_flows/
-slides/
-assignments/
-project_final/
-LICENSE
-CONTRIBUTING.md
+---
 
-Avaliação, entregáveis e rubrica
-Labs: checklist (configuração correta, documentação, evidências — prints/pcaps).
-Notebooks: código executável, comentários, resultados (accuracy, recall, matriz de confusão).
-Projeto final: demonstração funcional (vídeo curto + repositório com scripts), relatório escrito 3–5 páginas.
-Duração e carga horária
-Sugestão: 12 semanas * 3–4 horas semanais (2h teoria + 2h lab) = 36–48 horas.
-Projeto final: 1–2 semanas adicionais.
-Recursos adicionais e links úteis
-Cisco Packet Tracer download / Cisco Networking Academy.
-Cisco DevNet sandboxes (para APIs e telemetria reais).
-Scikit-learn tutorials e datasets de tráfego (ex.: CIC-IDS, UNSW-NB15 para exercícios avançados).
+## 📚 Syllabus Resumido (12 Módulos)
+
+### Módulo 0 — Onboarding e Ambiente
+
+* Setup do Packet Tracer e Python
+* Estrutura do repositório
+* Primeiro lab de conectividade
+
+### Módulo 1 — Fundamentos de Redes
+
+* OSI x TCP/IP
+* IPv4 e Subnetting
+* Lab PT: LAN básica
+* Notebook: análise simples de logs
+
+### Módulo 2 — Switching e VLANs
+
+* VLANs, Trunking, STP (introdução)
+* Lab PT: VLANs + Router-on-a-Stick
+* Notebook: tráfego por VLAN
+
+### Módulo 3 — Roteamento
+
+* Rotas estáticas e OSPF
+* Lab PT: roteamento dinâmico
+* Notebook: análise de caminhos simulados
+
+### Módulo 4 — NAT, DHCP e Serviços
+
+* NAT estático e dinâmico
+* DHCP Server
+* Notebook: correlação de IPs internos/externos
+
+### Módulo 5 — Segurança Básica
+
+* ACLs e conceitos de AAA
+* Lab PT: filtragem de tráfego
+* Notebook: classificação simples de tráfego
+
+### Módulo 6 — Captura e Análise de Pacotes
+
+* Wireshark e troubleshooting
+* PCAPs e extração de features
+* Notebook: dataset TCP/UDP
+
+### Módulo 7 — Telemetria e Monitoramento
+
+* SNMP, NetFlow, Telemetria
+* Pipelines de dados de rede
+
+### Módulo 8 — Automação com Python
+
+* Netmiko, APIs, RESTCONF
+* Backup, coleta e mudanças automatizadas
+
+### Módulo 9 — SDN e Intent-Based Networking
+
+* Conceitos de SDN
+* Limitações do Packet Tracer
+* Discussão com Mininet/GNS3
+
+### Módulo 10 — IA: Detecção de Anomalias
+
+* Modelos não supervisionados
+* Isolation Forest / DBSCAN
+* Avaliação de resultados
+
+### Módulo 11 — IA: Classificação de Tráfego
+
+* Feature engineering
+* Random Forest
+* Decisões de QoS baseadas em ML
+
+### Módulo 12 — Projeto Final
+
+* Integração de redes + IA
+* Dashboard + relatório técnico
+
+---
+
+## 🧪 Avaliação e Entregáveis
+
+* **Labs práticos**: 50%
+* **Notebooks e mini-projetos**: 20%
+* **Projeto final integrador**: 30%
+
+Critérios avaliados:
+
+* Funcionamento da infraestrutura
+* Qualidade dos dados
+* Clareza do código e documentação
+* Aplicação correta dos conceitos de IA
+
+---
+
+## 🛠️ Ferramentas Utilizadas
+
+* Cisco Packet Tracer
+* Wireshark
+* Python 3.9+
+* JupyterLab / Notebook
+* pandas, numpy, scikit-learn
+* netmiko, paramiko, requests
+* Mininet / GNS3 (opcional)
+
+---
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas!
+
+* Veja o arquivo [`CONTRIBUTING.md`](CONTRIBUTING.md)
+* Utilize commits claros e objetivos
+* Mantenha o padrão de nomenclatura dos labs
+
+---
+
+## 📌 Autor
+
+**Robson Vaamonde**
+Infraestrutura • Redes • Automação • Ensino
+
+---
+
+> Este projeto une **fundamentos sólidos de redes** com **práticas modernas de IA**, preparando o aluno para o cenário real de operação e evolução das redes de computadores.
