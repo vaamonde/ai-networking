@@ -181,3 +181,15 @@ assignments/
 project_final/
 LICENSE
 CONTRIBUTING.md
+
+Avaliação, entregáveis e rubrica
+Labs: checklist (configuração correta, documentação, evidências — prints/pcaps).
+Notebooks: código executável, comentários, resultados (accuracy, recall, matriz de confusão).
+Projeto final: demonstração funcional (vídeo curto + repositório com scripts), relatório escrito 3–5 páginas.
+Duração e carga horária
+Sugestão: 12 semanas * 3–4 horas semanais (2h teoria + 2h lab) = 36–48 horas.
+Projeto final: 1–2 semanas adicionais.
+Recursos adicionais e links úteis
+Cisco Packet Tracer download / Cisco Networking Academy.
+Cisco DevNet sandboxes (para APIs e telemetria reais).
+Scikit-learn tutorials e datasets de tráfego (ex.: CIC-IDS, UNSW-NB15 para exercícios avançados).
