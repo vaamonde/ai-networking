@@ -1,225 +1,150 @@
-# IA aplicada a Redes de Computadores (AI Networking)
+# Inteligência Artificial Aplicada a Redes de Computadores
 
-> **Curso prático e progressivo** que integra **Redes de Computadores (Cisco Packet Tracer)** com **Inteligência Artificial aplicada à operação, monitoramento e automação de redes**.
+## 📌 Sobre o Curso de IA para Redes de Computadores
 
-Este repositório foi pensado como **material vivo de estudo**, documentação técnica e base para aulas, labs e projetos, seguindo boas práticas de versionamento e organização no GitHub.
+Este curso tem como objetivo capacitar profissionais e estudantes da área de Tecnologia da Informação a utilizar Inteligência Artificial como ferramenta de apoio na administração, documentação, diagnóstico e segurança de redes de computadores.
 
+A proposta não é substituir o administrador de redes pela IA, mas ensinar como utilizá-la de forma técnica, crítica e responsável em ambientes reais.
+
+O curso combina:
+- Infraestrutura real em Ubuntu Server
+- Ambientes On-Premises
+- Containers com Docker
+- Versionamento com Git e GitHub
+- Documentação técnica profissional
+- Engenharia de Prompt aplicada a redes
+- Validação humana obrigatória
 ---
 
-## 🎯 Objetivo do Curso
+## 🎯 Objetivos do Curso de IA para Redes de Computadores
 
-Capacitar estudantes e profissionais de redes a:
+Ao final do curso, o aluno será capaz de:
 
-* Compreender e configurar **redes modernas** (switching, roteamento, VLANs, NAT, ACLs, serviços).
-* Coletar e analisar **dados de rede** (logs, fluxos, PCAPs, métricas).
-* Aplicar **técnicas de IA / Machine Learning** para:
-
-  * Detecção de anomalias
-  * Classificação de tráfego
-  * Apoio à tomada de decisão
-* Automatizar tarefas de rede com **Python e APIs**.
-* Entender como IA se encaixa em **SDN, Telemetria e Intent-Based Networking**.
-
+- Utilizar IA para apoio em troubleshooting de redes
+- Criar documentação técnica baseada em dados reais
+- Analisar logs e interpretar falhas em servidores Linux
+- Avaliar riscos de segurança em ambientes On-Premises e Docker
+- Aplicar boas práticas de hardening
+- Versionar documentação técnica utilizando Git
+- Trabalhar de forma estruturada utilizando VSCode
+- Desenvolver pensamento crítico no uso de IA
 ---
 
-## 👥 Público-alvo
+## 🧠 Metodologia do Curso de IA para Redes de Computadores
 
-* Estudantes de cursos **Técnicos**, **Graduação** ou **Formação Profissional** em Redes.
-* Profissionais de Infraestrutura, Redes, NOC ou DevOps.
-* Pessoas que já estudam redes e querem dar o **próximo passo rumo à automação e IA**.
+A metodologia do curso é baseada em:
 
-### Pré-requisitos
+**Teoria → Aplicação Prática → Uso de IA → Validação Humana → Registro Versionado**
 
-* Conceitos básicos de redes (OSI, TCP/IP, IPv4).
-* Noções básicas de Python (variáveis, listas, dicionários, leitura de arquivos).
-* Vontade de aprender na prática 😉.
+Princípios fundamentais:
+- Infraestrutura que não está documentada e versionada não existe.
+- IA amplia o profissional, não substitui.
+- Toda resposta deve ser validada tecnicamente.
+- Ambiente real supera exemplos fictícios.
 
+Cada aula gera evidência técnica registrada no repositório.
 ---
 
-## 🧠 Abordagem Didática
+## 💻 Ambiente Utilizado do Curso de IA para Redes de Computadores
 
-Cada módulo segue sempre a mesma lógica:
+### Ubuntu Server On-Premises
+Servidor Linux com serviços reais para:
+- Diagnóstico
+- Análise de portas
+- Hardening
+- Documentação
 
-1. **Conceito de Redes** (teoria essencial)
-2. **Lab no Cisco Packet Tracer** (.pkt + instruções)
-3. **Notebook em Python/Jupyter** aplicando análise de dados ou IA
+### Ubuntu Server + Docker
+Ambiente com containers para:
+- Simulação de serviços modernos
+- Avaliação de exposição de portas
+- Checklist de segurança
 
-> Quando o Packet Tracer não suportar determinado recurso, são indicadas **alternativas reais** (Wireshark, Mininet, GNS3, Docker ou datasets públicos).
-
+### Ferramentas
+- Git
+- GitHub
+- VSCode
+- Terminal Linux
+- Inteligência Artificial Generativa Diversas
 ---
 
-## 🗂️ Estrutura do Repositório
-
-```text
-.
-├── README.md
-├── syllabus.md
-├── setup.md
-├── labs/
-│   ├── 01_basics/
-│   │   ├── 01_basics_subnetting.pkt
-│   │   ├── lab_instructions.md
-│   │   └── solution.md
-│   ├── 02_vlans/
-│   │   ├── 02_vlans_trunk.pkt
-│   │   ├── lab_instructions.md
-│   │   └── analysis_notebook.ipynb
-│   └── ...
-├── notebooks/
-│   ├── common_utils.py
-│   ├── 10_anomaly_isolation.ipynb
-│   └── ...
-├── data/
-│   └── sample_flows/
-├── slides/
-├── assignments/
-├── project_final/
-├── CONTRIBUTING.md
-└── LICENSE
-```
-
+## 📁 Estrutura do Repositório
+- docs/ → Documentação técnica do ambiente on-premises
+- labs/ → Laboratórios organizados por aula
+- prompts/ → Prompts estruturados para uso profissional
+- docker/ → Análises e checklist de containers
+- assets/ → Diagramas e materiais complementares
 ---
 
-## 🚀 Como Começar
+## 🔐 Uso Responsável de IA do Curso de IA para Redes de Computadores
 
-1. Instale o **Cisco Packet Tracer** (Cisco Networking Academy).
-2. Instale **Python 3.9+**.
-3. Clone este repositório:
+Durante o curso, a IA será utilizada para:
 
-   ```bash
-   git clone https://github.com/seu-usuario/ai-networking.git
-   ```
-4. Siga o arquivo [`setup.md`](setup.md) para criar o ambiente Python.
-5. Comece pelo lab:
+- Estruturar documentação
+- Sugerir checklists
+- Auxiliar no diagnóstico
+- Apoiar na análise de segurança
 
-   ```text
-   labs/01_basics/lab_instructions.md
-   ```
+Entretanto:
 
+- Nenhuma resposta deve ser aplicada sem validação.
+- Suposições devem ser identificadas.
+- Logs e comandos devem ser confirmados manualmente.
+- O aluno é responsável pela decisão técnica final.
 ---
 
-## 📚 Syllabus Resumido (12 Módulos)
+## 📊 Avaliação do Curso de IA para Redes de Computadores
 
-### Módulo 0 — Onboarding e Ambiente
+A avaliação considera:
 
-* Setup do Packet Tracer e Python
-* Estrutura do repositório
-* Primeiro lab de conectividade
-
-### Módulo 1 — Fundamentos de Redes
-
-* OSI x TCP/IP
-* IPv4 e Subnetting
-* Lab PT: LAN básica
-* Notebook: análise simples de logs
-
-### Módulo 2 — Switching e VLANs
-
-* VLANs, Trunking, STP (introdução)
-* Lab PT: VLANs + Router-on-a-Stick
-* Notebook: tráfego por VLAN
-
-### Módulo 3 — Roteamento
-
-* Rotas estáticas e OSPF
-* Lab PT: roteamento dinâmico
-* Notebook: análise de caminhos simulados
-
-### Módulo 4 — NAT, DHCP e Serviços
-
-* NAT estático e dinâmico
-* DHCP Server
-* Notebook: correlação de IPs internos/externos
-
-### Módulo 5 — Segurança Básica
-
-* ACLs e conceitos de AAA
-* Lab PT: filtragem de tráfego
-* Notebook: classificação simples de tráfego
-
-### Módulo 6 — Captura e Análise de Pacotes
-
-* Wireshark e troubleshooting
-* PCAPs e extração de features
-* Notebook: dataset TCP/UDP
-
-### Módulo 7 — Telemetria e Monitoramento
-
-* SNMP, NetFlow, Telemetria
-* Pipelines de dados de rede
-
-### Módulo 8 — Automação com Python
-
-* Netmiko, APIs, RESTCONF
-* Backup, coleta e mudanças automatizadas
-
-### Módulo 9 — SDN e Intent-Based Networking
-
-* Conceitos de SDN
-* Limitações do Packet Tracer
-* Discussão com Mininet/GNS3
-
-### Módulo 10 — IA: Detecção de Anomalias
-
-* Modelos não supervisionados
-* Isolation Forest / DBSCAN
-* Avaliação de resultados
-
-### Módulo 11 — IA: Classificação de Tráfego
-
-* Feature engineering
-* Random Forest
-* Decisões de QoS baseadas em ML
-
-### Módulo 12 — Projeto Final
-
-* Integração de redes + IA
-* Dashboard + relatório técnico
-
+- Organização do repositório
+- Clareza da documentação
+- Uso consciente da IA
+- Aplicação prática em ambiente real
+- Histórico de commits
+- Coerência técnica
 ---
 
-## 🧪 Avaliação e Entregáveis
+## 🚀 Diferencial do Curso de IA para Redes de Computadores
 
-* **Labs práticos**: 50%
-* **Notebooks e mini-projetos**: 20%
-* **Projeto final integrador**: 30%
+Este curso integra:
 
-Critérios avaliados:
+- Redes de Computadores
+- Administração de Servidores Linux
+- Docker
+- Segurança
+- Versionamento profissional
+- Inteligência Artificial aplicada
 
-* Funcionamento da infraestrutura
-* Qualidade dos dados
-* Clareza do código e documentação
-* Aplicação correta dos conceitos de IA
-
+É uma abordagem prática, moderna e alinhada com o mercado atual de infraestrutura.
 ---
 
-## 🛠️ Ferramentas Utilizadas
+## 📌 Público-Alvo do Curso de IA para Redes de Computadores
 
-* Cisco Packet Tracer
-* Wireshark
-* Python 3.9+
-* JupyterLab / Notebook
-* pandas, numpy, scikit-learn
-* netmiko, paramiko, requests
-* Mininet / GNS3 (opcional)
-
+- Estudantes de Redes
+- Técnicos em Informática
+- Profissionais de Infraestrutura
+- Administradores de Sistemas
+- Interessados em IA aplicada à área de redes
 ---
 
-## 🤝 Contribuições
+## ⚖️ Aviso Importante do Curso de IA para Redes de Computadores
 
-Contribuições são bem-vindas!
+Este repositório é utilizado como ambiente didático.
 
-* Veja o arquivo [`CONTRIBUTING.md`](CONTRIBUTING.md)
-* Utilize commits claros e objetivos
-* Mantenha o padrão de nomenclatura dos labs
-
+Os exemplos apresentados devem ser aplicados em ambientes de laboratório controlado.  
+Não implemente alterações em ambientes de produção sem análise prévia.
 ---
 
-## 📌 Autor
+## 👨‍🏫 Instrutor do Curso de IA para Redes de Computadores
 
-**Robson Vaamonde**
-Infraestrutura • Redes • Automação • Ensino
-
+Robson Vaamonde  
+Especialista em Infraestrutura de Redes, Servidores Linux e Segurança  
+Criador de cursos técnicos voltados à prática profissional
 ---
 
-> Este projeto une **fundamentos sólidos de redes** com **práticas modernas de IA**, preparando o aluno para o cenário real de operação e evolução das redes de computadores.
+> "Infraestrutura que não está documentada e versionada não existe."
+---
+> "IA amplia o profissional, não substitui."
+---
+> "Se está na IA então #VavaAprova"
