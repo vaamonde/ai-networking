@@ -34,5 +34,5 @@
 ---
 
 🧪 Laboratório 01
-1. Link do material: 
+1. Link do material: https://github.com/vaamonde/ai-networking/blob/main/02-Labs/AULA-01-LAB-01.md
 ---
