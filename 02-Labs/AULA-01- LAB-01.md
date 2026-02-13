@@ -5,10 +5,11 @@
 💻 Ambiente Prático (On-Premises)
 1. Máquina Virtual (VirtualBOX)
 2. Github (Criar conta e se autenticar)
-3. Git Gitbash (Configuração básica de integração com o Github)
-4. VSCode (Instalação das principais extensões)
+3. Git e Gitbash (Configuração básica de integração com o Github)
+4. VSCode (Configuração básica)
 5. Repositório pessoal (Criação do repositório pessoal do curso)
 6. Repositório clonado (Clonar o repositório do curso para o computador local)
+---
 
 🧠 Atividade com IA: Pergunta básica para IA (Sem engenharia de prompt)
 
@@ -21,20 +22,24 @@
 > "O que é um ambiente de Servidor Corporativo utilizando GNU/Linux"
 3. Depois perguntar:
 > "Considere um ambiente GNU/Linux utilizando a distribuição Ubuntu Server Corporativo com serviços básicos ativos e firewall configurado."
+---
 
 📊 Analisar os resultados:
 1. ✔️ Análise crítica: Sua leitura e compreensão
 2. ✔️ Conclusão técnica: Separar tecnicamente o seu entendimento
+---
 
 🔎 Identificar:
 1. 📌 Onde a IA generalizou
   - ele alucinou nas respostas?
 2. 📌 Onde faltou contexto
   - foi muito genérico no resultado?
+---
 
 📥 Download das Máquinas Virtuais
 1. Download da VM Ubuntu Server On-Premises:
 2. Download da VM Ubuntu Server Container:
+---
 
 🐙 Acessando o Github (Criação de Conta ou Autenticação)
 1. Se autenticar no Github: https://github.com/login
@@ -42,6 +47,7 @@
 2. Criando o repositório da aula
   - Nome: ai-network
   - Visibilidade: Público
+---
 
 🧩 Clonando o repositório no computador
 1. Abrir o Gitbash no Windows
@@ -50,10 +56,12 @@
 #Clonando o repositório local do Github
 git clone https://github.com/seu_usuario/ai-network
 ```
+---
 
 💻 Abrir o repositório local como projeto no VScode
 1. Selecionar o repositório clonado e abrir com o VScode
   - **Observação:** Confiar no conteúdo do repositório
+---
 
 📝 Registro das atividades:
 1. Criar o diretório/arquivo: __`labs/aula01-introducao.md`__
@@ -71,6 +79,7 @@ git clone https://github.com/seu_usuario/ai-network
   > Direta e objetiva
 6. 📌 Onde faltou contexto?
   > O que você sentiu falta
+---
 
 🧩 Configurando o Git, Gitbash e VSCode para integrar com Github
 1. Abrir o Terminal dentro do VSCode: __`atalho Ctrl + J`__
@@ -89,15 +98,18 @@ git config --global color.ui true
 #Verificando todas as opções de configuração do perfil do Git
 git config --list
 ```
+---
 
-📦 Importação das Máquinas Virtual no VirtualBOX
-1. Localizar as máquinas virtuais para importação
-2. Após a importação ligar uma de cada vez para estar a inicialização
+📦 Importação das Máquinas Virtuais no VirtualBOX
+1. Localizar as máquinas virtuais para importação (Download)
+2. Abrir o VirtualBOX para iniciar a importação pelo assistente
+2. Após a importação, ligar as VM's uma de cada vez para testar a inicialização
   - Usuário: senac
   - Senha..: senac@123
 3. Comando para desligar: __`sudo poweroff`__
+---
 
-📝 Enviando o primeiro versionamento do arquivo para o Repositório Remoto
+📝 Enviando o primeiro versionamento da documentação para o Repositório Remoto no Github
 ```bash
 #Verificando se tem atualizações no repositório remoto
 git pull

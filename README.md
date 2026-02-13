@@ -70,7 +70,7 @@ Servidor Linux rodando serviços reais containers para:
 - Acesso Remoto via SSH e Integração VSCode com Terminal
 ---
 
-### Indicação de Plataformas de IA (Foco no ChatGPT, Copilot e )
+### Indicação de Plataformas de IA (Foco no ChatGPT, Copilot e Claude)
 - OpenAI ChatGPT: https://chatgpt.com<br>
 - Microsoft Copilot: https://copilot.microsoft.com<br>
 - Google Gemini: https://gemini.google.com<br>
