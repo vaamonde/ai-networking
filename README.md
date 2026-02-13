@@ -67,15 +67,17 @@ Servidor Linux rodando serviços reais containers para:
 - VSCode (https://code.visualstudio.com/)
 - Terminal Linux ou Gitbash para Windows
 - Inteligência Artificial Generativa Diversas
+- Acesso Remoto via SSH e Integração VSCode com Terminal
 ---
 
-### Indicação de Plataformas de IA (Foco no ChatGPT e Copilot)
+### Indicação de Plataformas de IA (Foco no ChatGPT, Copilot e )
 - OpenAI ChatGPT: https://chatgpt.com<br>
 - Microsoft Copilot: https://copilot.microsoft.com<br>
 - Google Gemini: https://gemini.google.com<br>
 - DeepSeek: https://chat.deepseek.com/<br>
 - x.AI Grok: https://grok.com/<br>
 - Perplexity: https://www.perplexity.ai/<br>
+- Claude: https://claude.ai<br>
 ---
 
 ## 📁 Estrutura do Repositório
