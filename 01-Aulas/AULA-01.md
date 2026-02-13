@@ -18,16 +18,21 @@
   - Alucinação
   - Segurança
   - Privacidade
-5. Link do material: 
+5. Link do material: https://github.com/vaamonde/ai-networking/blob/main/04-pdf/Apresentacao.pdf
 ---
 
 📝 Metodologia:
 1. Exposição dialogada
 2. Debate guiado
 3. Demonstração ao vivo
+---
 
 💻 Atividade prática:
 1. Primeiro contato com ChatGPT, Copilot e Claude
 2. Usar IA como especialista em redes
 3. Comparar resposta técnica × resposta genérica
+---
+
+🧪 Laboratório 01
+1. Link do material: 
 ---
