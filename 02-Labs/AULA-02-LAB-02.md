@@ -6,7 +6,7 @@
 1. Máquina Virtual (VirtualBOX) Ubuntu Server On-Premises
 2. Github (se autenticar no seu navegador)
 3. Git e Gitbash (usar somente dentro do VSCode)
-4. VSCode (Instalação das principais extensões de IA e facilidades)
+4. VSCode (Instalação das principais extensões de IA e personalização)
 6. Repositório clonado (Abrir como projeto no VSCode)
 
 💻 Instalando e Configurando as principais Extensões no VScode
