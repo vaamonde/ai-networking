@@ -22,3 +22,8 @@
 
 🧪 Laboratório 07
 1. Link do material: https://github.com/vaamonde/ai-networking/blob/main/02-Labs/AULA-07-LAB-07.md
+---
+
+📝 Engenharia de Prompts:
+1. Link do material: 
+---

@@ -26,3 +26,8 @@
 
 🧪 Laboratório 05
 1. Link do material: https://github.com/vaamonde/ai-networking/blob/main/02-Labs/AULA-05-LAB-05.md
+---
+
+📝 Engenharia de Prompts:
+1. Link do material: 
+---

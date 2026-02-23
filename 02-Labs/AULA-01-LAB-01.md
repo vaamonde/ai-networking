@@ -25,18 +25,18 @@
 ---
 
 📊 Analisar os resultados:
-1. ✔️ Análise crítica: Sua leitura e compreensão
-2. ✔️ Conclusão técnica: Separar tecnicamente o seu entendimento
+1. ✔️ **Análise Crítica:** Sua leitura e compreensão sobre o texto proposto pela IA
+2. ✔️ **Conclusão técnica:** Separar tecnicamente o seu entendimento sobre o assunto
 ---
 
 🔎 Identificar:
-1. 📌 Onde a IA generalizou
-  - ele alucinou nas respostas?
-2. 📌 Onde faltou contexto
+1. 📌 Onde a IA **Generalizou**
+  - ela alucinou nas respostas?
+2. 📌 Onde faltou **Contexto**
   - foi muito genérico no resultado?
 ---
 
-📥 Download das Máquinas Virtuais
+📥 Download das Máquinas Virtuais (VirtualBOX)
 1. Download da VM Ubuntu Server On-Premises:
 2. Download da VM Ubuntu Server Container:
 ---
@@ -45,16 +45,16 @@
 1. Se autenticar no Github: https://github.com/login
   - **Observação:** Caso não tenha uma conta no Github acessar o link: https://github.com/signup
 2. Criando o repositório da aula
-  - Nome: ai-network
+  - Nome: ai-network-senac-tit
   - Visibilidade: Público
 ---
 
-🧩 Clonando o repositório no computador
+🧩 Clonando o repositório no computador local
 1. Abrir o Gitbash no Windows
-2. Clocar o repositório remoto localmente com o comando git: 
+2. Clocar o repositório remoto localmente com o comando: __`git`__: 
 ```bash
 #Clonando o repositório local do Github
-git clone https://github.com/seu_usuario/ai-network
+git clone https://github.com/seu_usuario/ai-network-senac-tit
 ```
 ---
 
@@ -71,7 +71,7 @@ git clone https://github.com/seu_usuario/ai-network
   > 🤖 Resposta 1 do Prompt 1
 2. Prompt 2
   > 🤖 Resposta 2
-3. ✔️ Análise crítica
+3. ✔️ Análise crítica do resultado
   > Sua análise pessoal
 4. ✔️ Conclusão técnica:
   > Sua conclusão técnica

@@ -27,3 +27,8 @@
 
 🧪 Laboratório 04
 1. Link do material: https://github.com/vaamonde/ai-networking/blob/main/02-Labs/AULA-04-LAB-04.md
+---
+
+📝 Engenharia de Prompts:
+1. Link do material: 
+---

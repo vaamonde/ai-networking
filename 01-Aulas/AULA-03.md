@@ -30,3 +30,8 @@
 
 🧪 Laboratório 03
 1. Link do material: https://github.com/vaamonde/ai-networking/blob/main/02-Labs/AULA-03-LAB-03.md
+---
+
+📝 Engenharia de Prompts:
+1. Link do material: 
+---
