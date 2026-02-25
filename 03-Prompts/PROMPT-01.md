@@ -20,7 +20,7 @@
 ---
 
 📝 Segundo Prompt
-> "Preciso importar uma máquina virtual do Linux no Virtualbox para iniciar a Aula de Inteligencia Artificial para Redes de Computadores. Para isso precis de um passo a passo detalhado indicando como mudar a localização do arquivo da máquina virtual, como configurar a máquina virtual e como iniciar a máquina virtual."
+> "Preciso importar uma máquina virtual do Linux no Virtualbox para iniciar a Aula de Inteligencia Artificial para Redes de Computadores. Para isso preciso de um passo a passo detalhado indicando como mudar a localização do arquivo da máquina virtual, como configurar a máquina virtual e como iniciar a máquina virtual."
 
 📝 Registro das atividades:
 1. Registrar o segundo prompt e a resposta do ChatGPT.

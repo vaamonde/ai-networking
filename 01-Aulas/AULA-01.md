@@ -38,5 +38,5 @@
 ---
 
 📝 Engenharia de Prompts:
-1. Link do material: 
+1. Link do material: https://github.com/vaamonde/ai-networking/blob/main/03-Prompts/PROMPT-01.md
 ---
