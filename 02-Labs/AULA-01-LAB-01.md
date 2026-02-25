@@ -15,18 +15,26 @@
 
 **Observação:** Utilizar nessa atividade o OpenAI ChatGPT: https://chatgpt.com/ (Simples e Objetivo)
 
+1. Personalizar o ChatGPT para o Perfil Técnico
+  - Clique no nome do seu usuário, selecione: **Configurações**
+2. Em Configurações selecione: **Personalização**
+  - Em Estilo e tom básicos mude para: **Profissional (Preciso e Refinado)**
+  - Em Acolhedor mude para: **Menos (Mais Factual e Profissional)**
+  - Em Entusiasmado mude para: **Menos (Mais Calmo e Neutro)**
+---
+
 1. Criar um "Novo Projeto de Prompt:
   - Nome do projeto: Aula01-Lab01 IA como Consultor de TI
   - **"OBSERVAÇÃO:"** - Clicar na "Engrenagem" e selecionar: __`Apenas Projeto`__
 2. Fazer pergunta genérica sobre redes.
 > "O que é um ambiente de Servidor Corporativo utilizando GNU/Linux"
 3. Depois perguntar:
-> "Considere um ambiente GNU/Linux utilizando a distribuição Ubuntu Server Corporativo com serviços básicos ativos e firewall configurado."
+> "Considere um ambiente GNU/Linux utilizando a distribuição Ubuntu Server Corporativo versão 22.04.x LTS com serviços básicos ativos e firewall configurado."
 ---
 
 📊 Analisar os resultados:
 1. ✔️ **Análise Crítica:** Sua leitura e compreensão sobre o texto proposto pela IA
-2. ✔️ **Conclusão técnica:** Separar tecnicamente o seu entendimento sobre o assunto
+2. ✔️ **Conclusão Técnica:** Separar tecnicamente o seu entendimento sobre o assunto
 ---
 
 🔎 Identificar:
