@@ -1,3 +1,5 @@
+> #BoraParaPrática utilizar a #AIemRedesDeComputadores de forma "Profissional!!!!!", então #BoraParaPráticaComAI que #VavaAprova
+
 📍 AULA 02 — 🧪 LAB 02 — Diagnóstico Técnico em Ambiente GNU/Linux (Controlado)
 
 🎯 Objetivo: Criar prompt's reutilizável baseado em cenário real.

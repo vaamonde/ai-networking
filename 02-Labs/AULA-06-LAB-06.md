@@ -1,3 +1,5 @@
+> #BoraParaPrática utilizar a #AIemRedesDeComputadores de forma "Profissional!!!!!", então #BoraParaPráticaComAI que #VavaAprova
+
 📍 AULA 06 — 🧪 LAB 06 — Container Seguro em Ubuntu + Docker
 
 ```bash

@@ -1,3 +1,5 @@
+> #BoraParaPrática utilizar a #AIemRedesDeComputadores de forma "Profissional!!!!!", então #BoraParaPráticaComAI que #VavaAprova
+
 📍 AULA 07 — LAB FINAL (VERSÃO CONSULTORIA REAL)
 
 Agora o projeto final deve incluir:

@@ -1,3 +1,5 @@
+> #BoraParaPrática utilizar a #AIemRedesDeComputadores de forma "Profissional!!!!!", então #BoraParaPráticaComAI que #VavaAprova
+
 📍 AULA 04 — 🧪 LAB 04 — Hardening (Endurecer) Validado
 
 🎯 Objetivo: Melhorar a documentação com informações reais da VM usando a IA.

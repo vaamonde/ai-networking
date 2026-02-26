@@ -1,3 +1,5 @@
+> #BoraParaPrática utilizar a #AIemRedesDeComputadores de forma "Profissional!!!!!", então #BoraParaPráticaComAI que #VavaAprova
+
 📍 AULA 01 — 🧪 LAB 01 — IA como Consultoria Técnica em Ambiente Versionado
 
 🎯 Objetivo: Compreender que IA precisa de contexto técnico real para validar as respostas.
@@ -11,7 +13,7 @@
 6. Repositório clonado (Clonar o repositório do curso para o computador local)
 ---
 
-🧠 Atividade com IA: Pergunta básica para IA (Sem engenharia de prompt)
+🧠 Atividade com IA: Pergunta básica para IA (Sem engenharia de Prompt)
 
 **Observação:** Utilizar nessa atividade o OpenAI ChatGPT: https://chatgpt.com/ (Simples e Objetivo)
 
@@ -27,9 +29,27 @@
   - Nome do projeto: Aula01-Lab01 IA como Consultor de TI
   - **"OBSERVAÇÃO:"** - Clicar na "Engrenagem" e selecionar: __`Apenas Projeto`__
 2. Fazer pergunta genérica sobre redes.
-> "O que é um ambiente de Servidor Corporativo utilizando GNU/Linux"
-3. Depois perguntar:
-> "Considere um ambiente GNU/Linux utilizando a distribuição Ubuntu Server Corporativo versão 22.04.x LTS com serviços básicos ativos e firewall configurado."
+> "O que é um ambiente de Servidor Corporativo utilizando GNU/Linux?"
+3. Depois perguntar no mesmo Prompt:
+> "Considere um ambiente GNU/Linux utilizando a distribuição Ubuntu Server Corporativo versão 22.04.4 LTS com serviços básicos para Web Server ativos e firewall não configurado."
+---
+
+📊 Analisar os resultados:
+1. ✔️ **Análise Crítica:** Sua leitura e compreensão sobre o texto proposto pela IA
+2. ✔️ **Conclusão Técnica:** Separar tecnicamente o seu entendimento sobre o assunto
+---
+
+🔎 Identificar:
+1. 📌 Onde a IA **Generalizou**
+  - ela alucinou nas respostas?
+2. 📌 Onde faltou **Contexto**
+  - foi muito genérico no resultado?
+---
+
+🧠 Atividade com IA: Pergunta um pouco mais elaboradas para IA (Zero-Shot)
+
+1. Limpar todos os Prompt (Clear)
+  - Utilizar a atividade: https://github.com/vaamonde/ai-networking/blob/main/03-Prompts/PROMPT-01.md
 ---
 
 📊 Analisar os resultados:

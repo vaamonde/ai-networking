@@ -1,3 +1,5 @@
+> #BoraParaPrática utilizar a #AIemRedesDeComputadores de forma "Profissional!!!!!", então #BoraParaPráticaComAI que #VavaAprova
+
 📍 AULA 03 — 🧪 LAB 03 — Documentação Técnica do Servidor On-Premises
 
 ```bash

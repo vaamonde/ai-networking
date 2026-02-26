@@ -1,3 +1,5 @@
+> #BoraParaPrática utilizar a #AIemRedesDeComputadores de forma "Profissional!!!!!", então #BoraParaPráticaComAI que #VavaAprova
+
 📍 AULA 05 — 🧪 LAB 05 — Troubleshooting com Logs Reais
 
 🎯 Objetivo: Melhorar a documentação com informações de Logs da VM usando a IA.
