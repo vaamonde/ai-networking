@@ -7,7 +7,8 @@
 ***ANTES DE INICIAR:** CLIQUE NO LINK: https://forms.office.com/r/xcGsvK6Bbm (PEQUENA AVALIAÇÃO DE INGRESSANTE)
 
 🧠 Conteúdos:
-1. O que é Inteligência Artificial (visão geral)
+
+1. O que é Inteligência Artificial (visão geral/básica)
 2. IA tradicional × IA generativa
 3. Onde a IA já está presente em redes:
   - Wi-Fi
@@ -22,21 +23,25 @@
 ---
 
 📝 Metodologia:
+
 1. Exposição dialogada (conversação, perguntas e respostas)
 2. Debate guiado (discutir riscos e limites)
 3. Demonstração ao vivo (usar IA para resolver um problema de rede)
 ---
 
 💻 Atividade prática:
+
 1. Primeiro contato com ChatGPT (OpenAI), Copilot (Microsoft), Gemini (Google) e Claude (Anthropic)
 2. Usar IA como especialista em redes para resolver um problema técnico específico
 3. Comparar resposta técnica × resposta genérica de IA
 ---
 
 🧪 Laboratório 01
+
 1. Link do material: https://github.com/vaamonde/ai-networking/blob/main/02-Labs/AULA-01-LAB-01.md
 ---
 
 📝 Engenharia de Prompts:
+
 1. Link do material: https://github.com/vaamonde/ai-networking/blob/main/03-Prompts/PROMPT-01.md
 ---
