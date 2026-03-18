@@ -13,11 +13,11 @@
 
 🧠 **IA Conceito e Metodologia** (Modelo Zero-Shot = Classificação Sem Contexto)
 
-1. **O que é Zero-Shot Prompting e como ele se aplica à Engenharia de Prompt?** __`Zero-Shot`__ é uma técnica onde o modelo é solicitado a realizar uma tarefa sem **fornecer exemplos ou contexto prévio**. Na engenharia de prompt, isso significa que o modelo deve entender e responder à pergunta ou tarefa com base apenas no texto do prompt, sem qualquer orientação adicional.
+1. **O que é Zero-Shot Prompting e como ele se aplica à Engenharia de Prompt?** __`Zero-Shot Prompting`__ neste tipo de prompting, o modelo é solicitado a gerar uma resposta sem **fornecer nenhum exemplo ou contexto específico**. O modelo deve confiar em **seu conhecimento prévio** para responder à pergunta. Por exemplo, se você perguntar __`"O que é inteligência artificial?"`__ sem fornecer nenhum contexto adicional, isso seria considerado um prompt **zero-shot**. O modelo deve usar seu conhecimento geral para fornecer uma resposta relevante.
 
 2. **Quais são as Vantagens e Desvantagens do modelo Zero-Shot Prompting?** 
-  - __`Vantagens:`__ Permite uma resposta rápida e direta, sem a necessidade de fornecer exemplos ou contexto adicional. 
-  - __`Desvantagens:`__ Pode resultar em respostas imprecisas ou irrelevantes, especialmente se o **Prompt for Vago ou Ambíguo (algo com duplo sentido, incerto, várias interpretações)**, pois o modelo pode não entender completamente a tarefa ou o contexto necessário para fornecer uma resposta adequada.
+  - __`Vantagens:`__ O zero-shot prompting pode ser útil para obter **respostas rápidas e diretas**, especialmente quando o modelo tem um **conhecimento prévio suficiente** sobre o tópico. Ele pode ser eficaz para perguntas simples ou para obter uma resposta geral sobre um assunto.
+  - __`Desvantagens:`__ O zero-shot prompting pode resultar em **respostas menos precisas ou relevantes**, especialmente se o modelo não tiver conhecimento suficiente sobre o tópico ou se a pergunta for __`Ambígua (múltiplos sentidos)`__. Ele pode não ser tão eficaz para perguntas complexas ou para obter informações detalhadas.
 ---
 
 📝 **Primeiro Prompt**
