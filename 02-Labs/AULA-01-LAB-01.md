@@ -1,10 +1,11 @@
-> #BoraParaPrática utilizar a #AIemRedesDeComputadores de forma "Profissional!!!!!", então #BoraParaPráticaComAI que #VavaAprova
+> #BoraParaPrática utilizar a #AIemRedesDeComputadores de forma "Profissional!!!!!", então #BoraParaPráticaComIA que #VavaAprova
 
-📍 AULA 01 — 🧪 LAB 01 — IA como Consultoria Técnica em Ambiente Versionado
+📍 **AULA 01** — 🧪 LAB 01 — IA como Consultoria Técnica em Ambiente Versionado
 
-🎯 Objetivo: Compreender que IA precisa de contexto técnico real para validar as respostas.
+🎯 **Objetivo:** Compreender que IA precisa de **Contexto Técnico Real** para validar as respostas.
 
-💻 Ambiente Prático (On-Premises)
+💻 **Ambiente Prático (On-Premises - Rede Local)**
+
 1. Máquina Virtual (VirtualBOX)
 2. Github (Criar conta e se autenticar)
 3. Git e Gitbash (Configuração básica de integração com o Github)
@@ -13,9 +14,9 @@
 6. Repositório clonado (Clonar o repositório do curso para o computador local)
 ---
 
-🧠 Atividade com IA: Pergunta básica para IA (Sem engenharia de Prompt)
+🧠 **Atividade com IA:** Pergunta básica para IA (Sem engenharia de Prompt)
 
-**Observação:** Utilizar nessa atividade o OpenAI ChatGPT: https://chatgpt.com/ (Simples e Objetivo)
+**Observação:** Utilizar nessa atividade o **OpenAI ChatGPT:** https://chatgpt.com/ (Simples e Objetivo)
 
 1. Personalizar o ChatGPT para o Perfil Técnico
   - Clique no nome do seu usuário, selecione: **Configurações**
@@ -25,8 +26,8 @@
   - Em Entusiasmado mude para: **Menos (Mais Calmo e Neutro)**
 ---
 
-1. Criar um "Novo Projeto de Prompt:
-  - Nome do projeto: Aula01-Lab01 IA como Consultor de TI
+1. Criar um "Novo Projeto de Prompt":
+  - Nome do projeto: **Aula01-Lab01 IA como Consultor de TI**
   - **"OBSERVAÇÃO:"** - Clicar na "Engrenagem" e selecionar: __`Apenas Projeto`__
 2. Fazer pergunta genérica sobre redes.
 > "O que é um ambiente de Servidor Corporativo utilizando GNU/Linux?"
@@ -34,42 +35,50 @@
 > "Considere um ambiente GNU/Linux utilizando a distribuição Ubuntu Server Corporativo versão 22.04.4 LTS com serviços básicos para Web Server ativos e firewall não configurado."
 ---
 
-📊 Analisar os resultados:
+📊 **Analisar os resultados:**
+
 1. ✔️ **Análise Crítica:** Sua leitura e compreensão sobre o texto proposto pela IA
 2. ✔️ **Conclusão Técnica:** Separar tecnicamente o seu entendimento sobre o assunto
 ---
 
-🔎 Identificar:
+🔎 **Identificar:**
+
 1. 📌 Onde a IA **Generalizou**
   - ela alucinou nas respostas?
+
 2. 📌 Onde faltou **Contexto**
   - foi muito genérico no resultado?
 ---
 
-🧠 Atividade com IA: Pergunta um pouco mais elaboradas para IA (Zero-Shot)
+🧠 **Atividade com IA:** Pergunta um pouco mais elaborada para IA (Zero-Shot)
 
 1. Limpar todos os Prompt (Clear)
   - Utilizar a atividade: https://github.com/vaamonde/ai-networking/blob/main/03-Prompts/PROMPT-01.md
 ---
 
-📊 Analisar os resultados:
+📊 **Analisar os resultados:**
+
 1. ✔️ **Análise Crítica:** Sua leitura e compreensão sobre o texto proposto pela IA
 2. ✔️ **Conclusão Técnica:** Separar tecnicamente o seu entendimento sobre o assunto
 ---
 
-🔎 Identificar:
+🔎 **Identificar:**
+
 1. 📌 Onde a IA **Generalizou**
   - ela alucinou nas respostas?
+
 2. 📌 Onde faltou **Contexto**
   - foi muito genérico no resultado?
 ---
 
-📥 Download das Máquinas Virtuais (VirtualBOX)
+📥 **Download das Máquinas Virtuais (VirtualBOX)**
+
 1. Download da VM Ubuntu Server On-Premises:
 2. Download da VM Ubuntu Server Container:
 ---
 
-🐙 Acessando o Github (Criação de Conta ou Autenticação)
+🐙 **Acessando o Github** (Criação de Conta ou Autenticação)
+
 1. Se autenticar no Github: https://github.com/login
   - **Observação:** Caso não tenha uma conta no Github acessar o link: https://github.com/signup
 2. Criando o repositório da aula
@@ -77,7 +86,8 @@
   - Visibilidade: Público
 ---
 
-🧩 Clonando o repositório no computador local
+🧩 **Clonando o repositório no computador local**
+
 1. Abrir o Gitbash no Windows
 2. Clocar o repositório remoto localmente com o comando: __`git`__: 
 ```bash
@@ -86,30 +96,39 @@ git clone https://github.com/seu_usuario/ai-network-senac-tit
 ```
 ---
 
-💻 Abrir o repositório local como projeto no VScode
-1. Selecionar o repositório clonado e abrir com o VScode
+💻 **Abrir o repositório local clonado do projeto no VScode**
+
+1. Selecionar o repositório clonado e em: abrir com o VScode
   - **Observação:** Confiar no conteúdo do repositório
 ---
 
-📝 Registro das atividades:
+📝 **Registro das atividades:**
+
 1. Criar o diretório/arquivo: __`labs/aula01-introducao.md`__
 
-➕ Adicionar os resultados:
+➕ **Adicionar os resultados:**
+
 1. Prompt 1
   > 🤖 Resposta 1 do Prompt 1
+
 2. Prompt 2
   > 🤖 Resposta 2
+
 3. ✔️ Análise crítica do resultado
   > Sua análise pessoal
+
 4. ✔️ Conclusão técnica:
   > Sua conclusão técnica
+
 5. 📌 Onde a IA generalizou?
   > Direta e objetiva
+
 6. 📌 Onde faltou contexto?
   > O que você sentiu falta
 ---
 
-🧩 Configurando o Git, Gitbash e VSCode para integrar com Github
+🧩 **Configurando o Git, Gitbash e VSCode para integrar com Github**
+
 1. Abrir o Terminal dentro do VSCode: __`atalho Ctrl + J`__
   - Escolher: __`Terminal`__, selecionar: __`Gitbash`__
 2. Configuração básica do Git para a integração
@@ -128,16 +147,7 @@ git config --list
 ```
 ---
 
-📦 Importação das Máquinas Virtuais no VirtualBOX
-1. Localizar as máquinas virtuais para importação (Download)
-2. Abrir o VirtualBOX para iniciar a importação pelo assistente
-2. Após a importação, ligar as VM's uma de cada vez para testar a inicialização
-  - Usuário: senac
-  - Senha..: senac@123
-3. Comando para desligar: __`sudo poweroff`__
----
-
-📝 Enviando o primeiro versionamento da documentação para o Repositório Remoto no Github
+📝 **Enviando o primeiro versionamento da documentação para o Repositório Remoto no Github**
 ```bash
 #Verificando se tem atualizações no repositório remoto
 git pull
@@ -145,13 +155,13 @@ git pull
 #Verificando o status do repositório local
 git status
 
-#Adicionando as mudanças dos arquivos no repositório local
+#Adicionando todas as mudanças dos arquivos no repositório local
 git add .
 
-#Comitando as mudanças dos arquivos no repositório local
+#Comitando todas as mudanças dos arquivos no repositório local
 git commit -m "Aula 01 - IA como consultoria técnica"
 
-#Enviando as mudanças dos arquivos do repositório local para o remoto
+#Enviando todas as mudanças dos arquivos do repositório local para o repositório remoto
 git push
 
 #Integração com o Github do VSCode no Microsoft Windows
@@ -163,4 +173,14 @@ Connect to Github
 #Liberação no navegador padrão da autenticação do Github
 Authorize Git Credential Man
 ```
+---
+
+📦 **Importação das Máquinas Virtuais no VirtualBOX**
+
+1. Localizar as máquinas virtuais para importação (Download)
+2. Abrir o VirtualBOX para iniciar a importação pelo assistente
+2. Após a importação, ligar as VM's uma de cada vez para testar a inicialização
+  - Usuário: senac
+  - Senha..: senac@123
+3. Comando para desligar: __`sudo poweroff`__
 ---
