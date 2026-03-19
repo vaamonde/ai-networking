@@ -9,9 +9,9 @@
 🧠 **Conteúdo da Aula:**
 
 1. O que é Inteligência Artificial (visão geral/básica)
-2. IA tradicional × IA generativa
-3. Onde a IA já está presente em redes:
-  - Wi-Fi
+2. IA tradicional × IA generativa 
+3. Onde a IA já está presente em redes: 
+  - Wi-Fi 
   - Firewalls
   - IoT
   - Monitoramento

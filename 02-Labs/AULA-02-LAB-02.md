@@ -94,7 +94,7 @@ date
 4. O que foi validado manualmente
 ---
 
-📝 **Enviando o primeiro versionamento da documentação para o Repositório Remoto no Github**
+📝 **Enviando o segundo versionamento da documentação para o Repositório Remoto no Github**
 ```bash
 #Verificando se tem atualizações no repositório remoto do Github
 git pull

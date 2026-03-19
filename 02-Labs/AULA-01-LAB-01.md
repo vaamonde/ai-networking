@@ -14,7 +14,7 @@
 6. Repositório clonado (Clonar o repositório do curso para o computador local)
 ---
 
-🧠 **Atividade com IA:** Pergunta básica para IA (Sem engenharia de Prompt)
+🧠 **Atividade com IA:** Pergunta básica para IA (Sem engenharia de Prompting)
 
 **Observação:** Utilizar nessa atividade o **OpenAI ChatGPT:** https://chatgpt.com/ (Simples e Objetivo)
 
@@ -26,12 +26,14 @@
   - Em Entusiasmado mude para: **Menos (Mais Calmo e Neutro)**
 ---
 
-1. Criar um "Novo Projeto de Prompt":
+1. Criar um "Novo Projeto de Prompting" no ChatGPT
   - Nome do projeto: **Aula01-Lab01 IA como Consultor de TI**
   - **"OBSERVAÇÃO:"** - Clicar na "Engrenagem" e selecionar: __`Apenas Projeto`__
-2. Fazer pergunta genérica sobre redes.
+
+2. Fazer perguntas genéricas sobre redes.
 > "O que é um ambiente de Servidor Corporativo utilizando GNU/Linux?"
-3. Depois perguntar no mesmo Prompt:
+
+3. Depois perguntar no mesmo Prompting sobre um cenário mais específico.
 > "Considere um ambiente GNU/Linux utilizando a distribuição Ubuntu Server Corporativo versão 22.04.4 LTS com serviços básicos para Web Server ativos e firewall não configurado."
 ---
 
@@ -50,9 +52,9 @@
   - foi muito genérico no resultado?
 ---
 
-🧠 **Atividade com IA:** Pergunta um pouco mais elaborada para IA (Zero-Shot)
+🧠 **Atividade com IA:** Pergunta um pouco mais elaborada para IA (Zero-Shot Prompting)
 
-1. Limpar todos os Prompt (Clear)
+1. Limpar todos os Prompting do ChatGPT (Clear)
   - Utilizar a atividade: https://github.com/vaamonde/ai-networking/blob/main/03-Prompts/PROMPT-01.md
 ---
 
@@ -92,6 +94,7 @@
 2. Clocar o repositório remoto localmente com o comando: __`git`__: 
 ```bash
 #Clonando o repositório local do Github
+#opção do comando git: clone (clonar o repositório remoto para o computador local)
 git clone https://github.com/seu_usuario/ai-network-senac-tit
 ```
 ---
@@ -108,11 +111,11 @@ git clone https://github.com/seu_usuario/ai-network-senac-tit
 
 ➕ **Adicionar os resultados:**
 
-1. Prompt 1
-  > 🤖 Resposta 1 do Prompt 1
+1. Prompting 1
+  > 🤖 Resposta 1 do Prompting 1
 
-2. Prompt 2
-  > 🤖 Resposta 2
+2. Prompting 2
+  > 🤖 Resposta 2 do Prompting 2
 
 3. ✔️ Análise crítica do resultado
   > Sua análise pessoal
@@ -134,15 +137,19 @@ git clone https://github.com/seu_usuario/ai-network-senac-tit
 2. Configuração básica do Git para a integração
 ```bash
 #Configuração do Nome de Usuário que será utilizado nos Commits
+#opção do comando git: config (configuração do Git), --global (configuração global para o usuário), user.name (nome do usuário)
 git config --global user.name "Seu Nome e Sobrenome"
 
 #Configuração do Email utilizado na autenticação do Github
+#opção do comando git: config (configuração do Git), --global (configuração global para o usuário), user.email (email do usuário)
 git config --global user.email seu_email@seu_domínio.com
 
 #Configuração do suporte das opções coloridas do comando Git
+#opção do comando git: config (configuração do Git), --global (configuração global para o usuário), color.ui (suporte de cores para os comandos do Git)
 git config --global color.ui true
 
 #Verificando todas as opções de configuração do perfil do Git
+#opção do comando git: config (configuração do Git), --list (listar todas as configurações)
 git config --list
 ```
 ---
@@ -150,18 +157,23 @@ git config --list
 📝 **Enviando o primeiro versionamento da documentação para o Repositório Remoto no Github**
 ```bash
 #Verificando se tem atualizações no repositório remoto
+#opção do comando git: pull (puxar as atualizações do repositório remoto para o repositório local)
 git pull
 
 #Verificando o status do repositório local
+#opção do comando git: status (status do repositório local)
 git status
 
 #Adicionando todas as mudanças dos arquivos no repositório local
+#opção do comando git: add (adicionar as mudanças dos arquivos para o próximo commit), . (todas as mudanças dos arquivos)
 git add .
 
 #Comitando todas as mudanças dos arquivos no repositório local
+#opção do comando git: commit (comitar as mudanças dos arquivos para o repositório local), -m (mensagem do commit)
 git commit -m "Aula 01 - IA como consultoria técnica"
 
 #Enviando todas as mudanças dos arquivos do repositório local para o repositório remoto
+#opção do comando git: push (enviar as mudanças dos arquivos do repositório local para o repositório remoto), origin (nome do repositório remoto), main (ramo principal do repositório remoto)
 git push
 
 #Integração com o Github do VSCode no Microsoft Windows
