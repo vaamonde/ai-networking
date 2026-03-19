@@ -63,21 +63,25 @@ ss -tulnp
 ---
 
 🧠 **IA deve te ajudar em:**
-1. Estruturar a documentação com base nos dados coletados, **sugerindo seções e tópicos relevantes com comandos para coletar informações adicionais**, tai como: __`Processador, Memória RAM, Hard Disk, Partições, Placa de Rede, Configurações da Rede (Estático ou DHCP), Serviços Instalados, Serviços Ativos.`__
+
+1. Estruturar a documentação com base nos dados coletados, **sugerindo seções e tópicos relevantes com comandos para coletar informações adicionais**, tai como: __`Processador, Memória RAM, Hard Disk, Partições, Placa de Rede, Configurações da Rede (Estático ou Dinâmica DHCP), Serviços Instalados, Serviços Ativos, Atualizações.`__
 ---
 
 🔥 **Exigência nova para a IA:**
+
 1. Você deve remover qualquer informação que a **IA inventar (alucinação)**.
 2. Você deve **validar manualmente** cada informação coletada e sugerida pela IA.
 3. Você deve registrar o que foi **validado manualmente** e o que foi **removido** por ser inventado pela IA.
 ---
 
 🔥 **Isso ensina que:**
+
 1. IA alucina se não houver __`validação correta dos dados reais coletados`__.
 2. IA é uma __`ferramenta de apoio`, mas a responsabilidade final é do **profissional de infraestrutura.**
 ---
 
 📝 **Registro das atividades:**
+
 1. Criar o diretório/arquivo: __`labs/aula03-documentacao.md`__
 ---
 
