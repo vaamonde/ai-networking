@@ -75,8 +75,8 @@
 
 📥 **Download das Máquinas Virtuais (VirtualBOX)**
 
-1. Download da VM Ubuntu Server On-Premises:
-2. Download da VM Ubuntu Server Container:
+1. Download da VM Ubuntu Server On-Premises: https://drive.google.com/file/d/1X5S6dfMePT1TGJVQfmRJ0YgZV0jzSnDO/view?usp=sharing
+2. Download da VM Ubuntu Server Container: https://drive.google.com/file/d/1Sd9lGx5sYpO_e1S2M03IZ5zK8LcnDrUN/view?usp=sharing
 ---
 
 🐙 **Acessando o Github** (Criação de Conta ou Autenticação)
