@@ -1,3 +1,5 @@
+> "Autor: Robson Vaamonde - Versão: 1.0 - Data de alteração: 25/03/2026"
+
 > “Aqui vocês vão trabalhar como profissionais de infraestrutura moderna: __`documentando, versionando, testando e usando IA como apoio`__.”
 
 📍 **AULA 01** — 🧪 PROMPT 01 — Engenharia de Prompting Básica para Redes de Computadores

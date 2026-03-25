@@ -1,3 +1,5 @@
+> "Autor: Robson Vaamonde - Versão: 1.0 - Data de alteração: 25/03/2026"
+
 > #BoraParaPrática utilizar a #AIemRedesDeComputadores de forma "Profissional!!!!!", então #BoraParaPráticaComIA que #VavaAprova
 
 📍 **AULA 01** — 🧪 LAB 01 — IA como Consultoria Técnica em Ambiente Versionado
@@ -19,12 +21,14 @@
 **Observação:** Utilizar nessa atividade o **OpenAI ChatGPT:** https://chatgpt.com/ (Simples e Objetivo)
 
 1. Personalizar o ChatGPT para o **Perfil Técnico**
-  - Clique no nome do seu usuário, selecione: **Configurações**
+  - Clique no __`Nome do seu Usuário`__, selecione: **Configurações**
 
 2. Em Configurações selecione: **Personalização**
   - Em __`Estilo e tom básicos`__ mude para: **Profissional (Preciso e Refinado)**
   - Em __`Acolhedor`__ mude para: **Menos (Mais Factual e Profissional)**
   - Em __`Entusiasmado`__ mude para: **Menos (Mais Calmo e Neutro)**
+  - Em __`Memória`__ clique em: **Gerenciar**
+    - **Dica** limpar todas as memórias: __`3 pontinhos`__ selecione: **Excluir todas as memórias**
 ---
 
 3. Criar um **"Novo Projeto de Prompting"** no ChatGPT
