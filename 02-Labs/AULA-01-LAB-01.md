@@ -9,7 +9,7 @@
 1. Máquina Virtual (VirtualBOX)
 2. Github (Criar conta e se autenticar)
 3. Git e Gitbash (Configuração básica de integração com o Github)
-4. VSCode (Configuração básica)
+4. VSCode (Configuração básica de integração com o Github)
 5. Repositório pessoal (Criação do repositório pessoal do curso)
 6. Repositório clonado (Clonar o repositório do curso para o computador local)
 ---
@@ -18,22 +18,24 @@
 
 **Observação:** Utilizar nessa atividade o **OpenAI ChatGPT:** https://chatgpt.com/ (Simples e Objetivo)
 
-1. Personalizar o ChatGPT para o Perfil Técnico
+1. Personalizar o ChatGPT para o **Perfil Técnico**
   - Clique no nome do seu usuário, selecione: **Configurações**
+
 2. Em Configurações selecione: **Personalização**
-  - Em Estilo e tom básicos mude para: **Profissional (Preciso e Refinado)**
-  - Em Acolhedor mude para: **Menos (Mais Factual e Profissional)**
-  - Em Entusiasmado mude para: **Menos (Mais Calmo e Neutro)**
+  - Em __`Estilo e tom básicos`__ mude para: **Profissional (Preciso e Refinado)**
+  - Em __`Acolhedor`__ mude para: **Menos (Mais Factual e Profissional)**
+  - Em __`Entusiasmado`__ mude para: **Menos (Mais Calmo e Neutro)**
 ---
 
-1. Criar um "Novo Projeto de Prompting" no ChatGPT
+3. Criar um **"Novo Projeto de Prompting"** no ChatGPT
   - Nome do projeto: **Aula01-Lab01 IA como Consultor de TI**
-  - **"OBSERVAÇÃO:"** - Clicar na "Engrenagem" e selecionar: __`Apenas Projeto`__
+    - **OBSERVAÇÃO:** - Clicar na "Engrenagem" e selecionar: __`Apenas Projeto`__
+  - Para finalizar clique em: __`Criar projeto`__
 
-2. Fazer perguntas genéricas sobre redes.
+4. Fazer uma pergunta __`Genérica`__ sobre redes.
 > "O que é um ambiente de Servidor Corporativo utilizando GNU/Linux?"
 
-3. Depois perguntar no mesmo Prompting sobre um cenário mais específico.
+5. Depois perguntar no mesmo Prompting sobre um __`Cenário mais Específico`__.
 > "Considere um ambiente GNU/Linux utilizando a distribuição Ubuntu Server Corporativo versão 22.04.4 LTS com serviços básicos para Web Server ativos e firewall não configurado."
 ---
 
@@ -54,7 +56,8 @@
 
 🧠 **Atividade com IA:** Pergunta um pouco mais elaborada para IA (Zero-Shot Prompting)
 
-1. Limpar todos os Prompting do ChatGPT (Clear)
+1. Limpar todos os Prompting do ChatGPT **(Clear)**
+  - Volte para o projeto, no primeiro chat em: __`3 (pontinhos)`__ e selecione: __`Excluir`__
   - Utilizar a atividade: https://github.com/vaamonde/ai-networking/blob/main/03-Prompts/PROMPT-01.md
 ---
 
@@ -83,6 +86,7 @@
 
 1. Se autenticar no Github: https://github.com/login
   - **Observação:** Caso não tenha uma conta no Github acessar o link: https://github.com/signup
+
 2. Criando o repositório da aula
   - Nome: ai-network-senac-tit
   - Visibilidade: Público
@@ -90,7 +94,9 @@
 
 🧩 **Clonando o repositório no computador local**
 
-1. Abrir o Gitbash no Windows
+1. Abrir o Gitbash no Windows na pasta __`Documentos`__
+  - Botão direito do mouse e selecione: **Git Bash**
+
 2. Clocar o repositório remoto localmente com o comando: __`git`__: 
 ```bash
 #Clonando o repositório local do Github
@@ -101,7 +107,7 @@ git clone https://github.com/seu_usuario/ai-network-senac-tit
 
 💻 **Abrir o repositório local clonado do projeto no VScode**
 
-1. Selecionar o repositório clonado e em: abrir com o VScode
+1. Selecionar o repositório clonado e clique com o botão direito do e selecione: __`abrir com o VScode`__
   - **Observação:** Confiar no conteúdo do repositório
 ---
 
@@ -134,6 +140,7 @@ git clone https://github.com/seu_usuario/ai-network-senac-tit
 
 1. Abrir o Terminal dentro do VSCode: __`atalho Ctrl + J`__
   - Escolher: __`Terminal`__, selecionar: __`Gitbash`__
+
 2. Configuração básica do Git para a integração
 ```bash
 #Configuração do Nome de Usuário que será utilizado nos Commits
