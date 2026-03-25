@@ -48,3 +48,8 @@
 
 1. Link do material: https://github.com/vaamonde/ai-networking/blob/main/03-Prompts/PROMPT-01.md
 ---
+
+📝 **Material de Apoio:**
+
+1. Link do material: https://github.com/vaamonde/ai-networking/blob/main/04-Apoio/AULA-01-APOIO-01.md
+---
