@@ -21,7 +21,7 @@
   - Alucinação
   - Segurança
   - Privacidade
-5. Link do material: https://github.com/vaamonde/ai-networking/blob/main/04-pdf/Apresentacao.pdf
+5. Link do material: https://github.com/vaamonde/ai-networking/blob/main/05-Pdfs/Apresentacao.pdf
 ---
 
 📝 **Metodologia:**
