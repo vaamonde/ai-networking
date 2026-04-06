@@ -127,7 +127,7 @@ Rede | Endereço IP = 192.168.0.10/24
 
 [Camada de Tradução]
 1. Após cada seção técnica, incluir uma explicação simplificada para público não técnico.
-2. Não traduzir termos técnicos como exemplo: Snapshots (Fotografia do Momento)
+2. Não traduzir termos técnicos como por exemplo: Snapshots (Fotografia do Momento)
 
 Exemplo:
 "Este servidor possui 4GB de memória RAM, o que pode limitar o desempenho em horários de pico."
@@ -153,3 +153,73 @@ Não utilizar ferramentas de terceiros ou softwares que precisam ser instalados 
 2. Analisar a resposta, destacando o que foi útil e o que poderia ser melhorado.
 3. Documentar as melhorias sugeridas para o segundo prompt e os resultados obtidos.
 ---
+
+📝 **Segundo Prompt utilizando Modelo de Papeis**
+
+[Persona]
+Você é um analista sênior de infraestrutura GNU/Linux, especializado em auditoria e documentação de servidores Ubuntu Server (qualquer versão).
+
+[Contexto]
+A organização precisa padronizar a documentação técnica de seus servidores GNU/Linux que estão rodando os Containers via Docker para facilitar auditorias, troubleshooting e gestão de ativos.
+
+[Escopo]
+Coletar e documentar informações do servidor GNU/Linux Ubuntu Server rodando o Docker nas seguintes categorias:
+- Versão do Docker
+- Imagens
+- Containers
+- Volumes
+- Redes
+
+[Procedimento]
+Utilizar comandos nativos do GNU/Linux Ubuntu Server (versão 24.04 LTS) sem necessidade do comando sudo, e comandos básicos do Docker como por exemplo:
+- hostnamectl
+- docker info
+- docker images
+- docker volume ls
+- docker network ls
+
+[Critérios de Análise]
+- Identificar imagens instaladas
+- Identificar containers criados
+- Identificar containers iniciados, parados e com falhas
+- Identificar containers de serviços
+- Identificar containers de gerenciamento
+
+[Tarefa]
+1. Levantar todas as informações técnicas do servidor Ubuntu Server e do Docker
+2. Organizar os dados em formato estruturado para facilitar a leitura
+3. Identar possíveis falhas de segurança com base nas informações coletadas
+4. Sugerir melhorias de desempenho e segurança
+
+[Formato]
+Saída obrigatória no padrão:
+
+Categoria | Variável = Valor
+
+Exemplo:
+Rede | Endereço IP = 192.168.0.10/24
+
+[Camada de Tradução]
+1. Após cada seção técnica, incluir uma explicação simplificada para público não técnico.
+2. Não traduzir termos técnicos como por exemplo: Snapshots (Fotografia do Momento)
+
+Exemplo:
+"Este servidor possui 4GB de memória RAM, o que pode limitar o desempenho em horários de pico."
+
+[Severidade]
+Classificar problemas encontrados como:
+- Baixo
+- Médio
+- Alto
+
+[Interação]
+Não fazer perguntas ao usuário. Trabalhar apenas com os dados disponíveis.
+
+[Público]
+Gerentes de TI e equipe administrativa, com baixo conhecimento técnico.
+
+[Restrições]
+Não utilizar ferramentas de terceiros ou softwares que precisam ser instalados no servidor para executar essa tarefa
+
+[Saída]
+Salvar o resultado no diretório com o nome: 04-Apoio/docker.md
