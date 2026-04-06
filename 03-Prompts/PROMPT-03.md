@@ -83,19 +83,23 @@ __`[Restrições]`__ → define restrições para evitar respostas indesejadas f
 Você é um analista sênior de infraestrutura GNU/Linux, especializado em auditoria e documentação de servidores Ubuntu Server (qualquer versão).
 
 [Contexto]
-A organização precisa padronizar a documentação técnica de seus servidores GNU/Linux para facilitar auditorias, troubleshooting e gestão de ativos.
+A organização precisa padronizar a documentação técnica de seus servidores GNU/Linux para facilitar auditorias, troubleshooting e gestão de ativos e software.
 
 [Escopo]
 Coletar e documentar informações do servidor GNU/Linux Ubuntu Server nas seguintes categorias:
 - Hardware
 - Sistema Operacional
 - Rede
-- Serviços
+- Serviços de Rede
 - Segurança
 - Espaço em Disco
+- Softwares Específicos
+
+Exemplo:
+Apache, NGINX, MySQL, PostgreSQL, etc.
 
 [Procedimento]
-Utilizar comandos nativos do GNU/Linux Ubuntu Server (versão 24.04 LTS) sem necessidade do comando sudo, como por exemplo:
+Utilizar comandos nativos do GNU/Linux Ubuntu Server (versão 24.04 LTS) sem necessidade de utilizar o comando sudo, como por exemplo:
 - hostnamectl
 - ip a / ip route
 - ss -tulnp
@@ -106,15 +110,16 @@ Utilizar comandos nativos do GNU/Linux Ubuntu Server (versão 24.04 LTS) sem nec
 
 [Critérios de Análise]
 - Identificar serviços expostos desnecessariamente
-- Verificar portas abertas e associar os serviços
+- Verificar portas abertas e associar os serviços de rede
 - Avaliar atualizações pendentes e de segurança
 - Detectar configurações inseguras (ex: SSH aberto sem restrição)
-- Avaliar uso de recursos (CPU, memória, disco)
+- Avaliar uso de recursos (CPU, Memória, Disco, Rede)
+- Verificar softwares instalados fora do padrão apt (/opt)
 
 [Tarefa]
 1. Levantar todas as informações técnicas do servidor Ubuntu Server
 2. Organizar os dados em formato estruturado para facilitar a leitura
-3. Identar possíveis falhas de segurança com base nas informações coletadas
+3. Identificar possíveis falhas de segurança com base nas informações coletadas
 4. Sugerir melhorias de desempenho e segurança
 
 [Formato]
@@ -123,14 +128,15 @@ Saída obrigatória no padrão:
 Categoria | Variável = Valor
 
 Exemplo:
-Rede | Endereço IP = 192.168.0.10/24
+Rede | Endereço IPv4 = 192.168.0.10/24
 
 [Camada de Tradução]
 1. Após cada seção técnica, incluir uma explicação simplificada para público não técnico.
-2. Não traduzir termos técnicos como por exemplo: Snapshots (Fotografia do Momento)
+2. Não traduzir termos técnicos como por exemplo: Snapshots - Fotografia do Momento
 
 Exemplo:
 "Este servidor possui 4GB de memória RAM, o que pode limitar o desempenho em horários de pico."
+"Este servidor está sendo utilizado para Web Server, cuidado em períodos sazonais"
 
 [Severidade]
 Classificar problemas encontrados como:
@@ -142,14 +148,14 @@ Classificar problemas encontrados como:
 Não fazer perguntas ao usuário. Trabalhar apenas com os dados disponíveis.
 
 [Público]
-Gerentes de TI e equipe administrativa, com baixo conhecimento técnico.
+Gerentes de TI e equipe administrativa, com baixo conhecimento técnico em GNU/Linux.
 
 [Restrições]
 Não utilizar ferramentas de terceiros ou softwares que precisam ser instalados no servidor para executar essa tarefa
 
 📝 **Registro das atividades:**
 
-1. Registrar o segundo prompt e a resposta do ChatGPT.
+1. Registrar o primeiro prompt e a resposta do Claude.
 2. Analisar a resposta, destacando o que foi útil e o que poderia ser melhorado.
 3. Documentar as melhorias sugeridas para o segundo prompt e os resultados obtidos.
 ---
@@ -160,18 +166,19 @@ Não utilizar ferramentas de terceiros ou softwares que precisam ser instalados 
 Você é um analista sênior de infraestrutura GNU/Linux, especializado em auditoria e documentação de servidores Ubuntu Server (qualquer versão).
 
 [Contexto]
-A organização precisa padronizar a documentação técnica de seus servidores GNU/Linux que estão rodando os Containers via Docker para facilitar auditorias, troubleshooting e gestão de ativos.
+A organização precisa padronizar a documentação técnica de seus servidores GNU/Linux que estão rodando os Containers via Docker-CE para facilitar auditorias, troubleshooting e gestão de ativos.
 
 [Escopo]
-Coletar e documentar informações do servidor GNU/Linux Ubuntu Server rodando o Docker nas seguintes categorias:
+Coletar e documentar informações do servidor GNU/Linux Ubuntu Server rodando o Docker-CE nas seguintes categorias:
 - Versão do Docker
+- Serviço do Docker
 - Imagens
 - Containers
 - Volumes
 - Redes
 
 [Procedimento]
-Utilizar comandos nativos do GNU/Linux Ubuntu Server (versão 24.04 LTS) sem necessidade do comando sudo, e comandos básicos do Docker como por exemplo:
+Utilizar comandos nativos do GNU/Linux Ubuntu Server (versão 24.04 LTS), sem necessidade de utilizar o comando sudo, usar comandos básicos do Docker-CE como por exemplo:
 - hostnamectl
 - docker info
 - docker images
@@ -179,17 +186,17 @@ Utilizar comandos nativos do GNU/Linux Ubuntu Server (versão 24.04 LTS) sem nec
 - docker network ls
 
 [Critérios de Análise]
-- Identificar imagens instaladas
-- Identificar containers criados
-- Identificar containers iniciados, parados e com falhas
-- Identificar containers de serviços
-- Identificar containers de gerenciamento
+- Identificar imagens instaladas, versão, data, etc
+- Identificar containers criados, data de criação, em execução ou não
+- Identificar containers iniciados, parados ou com falhas
+- Identificar containers de serviços específicos
+- Identificar containers de gerenciamento utilizado pelo Docker
 
 [Tarefa]
-1. Levantar todas as informações técnicas do servidor Ubuntu Server e do Docker
+1. Levantar todas as informações técnicas do servidor Ubuntu Server e do Docker-CE
 2. Organizar os dados em formato estruturado para facilitar a leitura
-3. Identar possíveis falhas de segurança com base nas informações coletadas
-4. Sugerir melhorias de desempenho e segurança
+3. Identificar possíveis falhas de segurança com base nas informações coletadas
+4. Sugerir melhorias de desempenho e segurança para o Ubuntu Server e o Docker-CE
 
 [Formato]
 Saída obrigatória no padrão:
@@ -197,14 +204,15 @@ Saída obrigatória no padrão:
 Categoria | Variável = Valor
 
 Exemplo:
-Rede | Endereço IP = 192.168.0.10/24
+Rede | Endereço IPv4 = 192.168.0.10/24
 
 [Camada de Tradução]
 1. Após cada seção técnica, incluir uma explicação simplificada para público não técnico.
-2. Não traduzir termos técnicos como por exemplo: Snapshots (Fotografia do Momento)
+2. Não traduzir termos técnicos como por exemplo: Snapshots - Fotografia do Momento
 
 Exemplo:
 "Este servidor possui 4GB de memória RAM, o que pode limitar o desempenho em horários de pico."
+"Este servidor está sendo utilizado para Web Server, cuidado em períodos sazonais."
 
 [Severidade]
 Classificar problemas encontrados como:
@@ -216,7 +224,7 @@ Classificar problemas encontrados como:
 Não fazer perguntas ao usuário. Trabalhar apenas com os dados disponíveis.
 
 [Público]
-Gerentes de TI e equipe administrativa, com baixo conhecimento técnico.
+Gerentes de TI e equipe administrativa, com baixo conhecimento técnico em GNU/Linux e Docker-CE
 
 [Restrições]
 Não utilizar ferramentas de terceiros ou softwares que precisam ser instalados no servidor para executar essa tarefa
