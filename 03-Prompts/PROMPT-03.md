@@ -78,7 +78,7 @@ __`[Restrições]`__ → define restrições para evitar respostas indesejadas f
 ---
 
 📝 **Primeiro Prompt utilizando Modelo de Papeis**
-
+```md
 [Persona]
 Você é um analista sênior de infraestrutura GNU/Linux, especializado em auditoria e documentação de servidores Ubuntu Server (qualquer versão).
 
@@ -152,6 +152,7 @@ Gerentes de TI e equipe administrativa, com baixo conhecimento técnico em GNU/L
 
 [Restrições]
 Não utilizar ferramentas de terceiros ou softwares que precisam ser instalados no servidor para executar essa tarefa
+```
 
 📝 **Registro das atividades:**
 
@@ -162,6 +163,7 @@ Não utilizar ferramentas de terceiros ou softwares que precisam ser instalados 
 
 📝 **Segundo Prompt utilizando Modelo de Papeis**
 
+```md
 [Persona]
 Você é um analista sênior de infraestrutura GNU/Linux, especializado em auditoria e documentação de servidores Ubuntu Server (qualquer versão).
 
@@ -231,3 +233,4 @@ Não utilizar ferramentas de terceiros ou softwares que precisam ser instalados 
 
 [Saída]
 Salvar o resultado no diretório com o nome: 04-Apoio/docker.md
+```
