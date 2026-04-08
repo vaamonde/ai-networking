@@ -9,7 +9,8 @@
 5. Configurar as Instruções do Projeto: 
 
 ```md
-Você é um Analista de Redes especializado em instalação, administração, customização e documentação de Servidores GNU/Linux Ubuntu Server versão 24.04.4 LTS.
+Você é um Analista de Redes especializado em instalação, administração, customização e 
+documentação de Servidores GNU/Linux Ubuntu Server versão 24.04.4 LTS.
 
 Regras:
 - Responda as perguntas de forma simples, objetiva e direta;
@@ -23,7 +24,7 @@ Regras:
 2. Criar um novo arquivo para essa documentação: __`Atalho: Ctrl + N`__
 2. Salvar o arquivo: __`Atalho: Ctrl + S`__ com o nome: __`Aula05-Lab05-AtividadeFinal.md`__
 
-### Terceira etapa: Documentar a Rede do Seu Computador Pessoal (Windows 11)
+### Terceira etapa: Verificar a Rede do Seu Computador Pessoal (Windows 11)
 1. Utilizar o comando no: __`Gitbash`__ no: __`VSCode`__ com o: __`Atalho: Ctrl + J`__
 
 > *ipconfig /all*
@@ -50,13 +51,13 @@ cd /etc/netplan
 ls -lh
 
 #Editar o arquivo de configuração do Netplan com o Editor de Texto: vim (Vi IMproved)
-#Dica: pode usar a Tecla: TAB (Tabular) - exemplo: sudo vim 50<TAB> que auto-completar
+#Dica: pode usar a Tecla: TAB (Tabular) - exemplo: sudo vim 50<TAB> que auto-completa
 sudo vim 50-cloud-init.yaml
 
 #Entrar no modo de EDIÇÃO (INSERT) do Editor de Texto: vim (Vi IMproved)
 INSERT
 ```
-```bash
+```yaml
 #Alterar as opção de configuração de rede do Netplan, CUIDADO!!!!! COM A ENDENTAÇÃO (DOIS ESPAÇOS)
 network:
   version: 2
@@ -84,7 +85,7 @@ sudo netplan apply
 sudo netplan status
 ```
 
-2. Copiar todo o conteúdo exibido na tela e colar no arquivo do: __`VSCode: Aula05-Lab05-AtividadeFinal.md`__
+2. Copiar todo o conteúdo exibido no terminal e colar no arquivo do: __`VSCode: Aula05-Lab05-AtividadeFinal.md`__
 3. **OBSERVAÇÃO:** SEPARAR OS CONTEÚDOS SALVOS COM: __`Duas Linhas <Dois Enters>`__
 4. Testar a conectividade com a Internet com o comando: __`ping`__
 
@@ -100,8 +101,10 @@ ping -c5 google.com
 
 ### Sétima etapa: Documentação Básica do Servidor Ubuntu Docker
 1. Documentação básica do servidor Ubuntu Server utilizando o: __`ChatGPT`__ como: __`Analista de Redes (Documentação)`__
-2. Digitar os principais comandos básicos para documentar o servidor, solicitar para o: __`ChatGPT`__ explicar o que cada comando faz e qual o seu objetivo: __`Exemplo: o que é e para que serve o comando: hostname (de forma simples, objetiva e direta)`__
-3. Copiar todo o conteúdo exibido na tela e colar no arquivo do: __`VSCode: Aula05-Lab05-AtividadeFinal.md`__
+2. Digitar os principais comandos básicos para documentar o servidor
+3. Solicitar para o: __`ChatGPT`__ explicar o que cada comando e qual o seu objetivo: 
+  - __`Exemplo: o que é e para que serve o comando: hostname (de forma simples, objetiva e direta)`__
+4. Copiar todo o conteúdo exibido no terminal e colar no arquivo do: __`VSCode: Aula05-Lab05-AtividadeFinal.md`__
 4. **OBSERVAÇÃO:** SEPARAR OS CONTEÚDOS SALVOS COM: __`Duas Linhas <Dois Enters>`__
 
 **Informações Gerais do Servidor**
