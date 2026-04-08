@@ -153,6 +153,7 @@ ping -c5 google.com
 2. Adicionar o arquivo: __`Aula05-Lab05-AtividadeFinal.md`__
 3. Engenharia de Prompt para geração da documentação:
 
+```md
 [Persona]
 Você é um Analista de Redes especializado em GNU/Linux, auditoria e documentação de servidores
 Ubuntu Server versão 24.04.4 LTS
@@ -202,6 +203,7 @@ Gerentes de TI e equipe administrativa, com baixo conhecimento técnico em GNU/L
 
 [Saída]
 Salvar o resultado com o nome do arquivo: 05-docker.md
+```
 
 ### Nona etapa: Adicionar o arquivo Markdown nas Fontes do Projeto do ChatGPT
 1. Abrir o projeto: __`Aula05-Lab05-AtividadeFinal`__
