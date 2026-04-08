@@ -25,8 +25,6 @@ Regras:
 
 ### Terceira etapa: Documentar a Rede do Seu Computador Pessoal (Windows 11)
 1. Utilizar o comando no: __`Gitbash`__ no: __`VSCode`__ com o: __`Atalho: Ctrl + J`__
-2. Copiar todo o conteúdo exibido na tela e colar no arquivo do: __`VSCode: Aula05-Lab05-AtividadeFinal.md`__
-3. **OBSERVAÇÃO:** SEPARAR OS CONTEÚDOS SALVOS COM: __`Duas Linhas <Dois Enters>`__
 
 > *ipconfig /all*
 
@@ -101,8 +99,8 @@ ping -c5 google.com
 ```
 
 ### Sétima etapa: Documentação Básica do Servidor Ubuntu Docker
-1. Documentação básica do servidor Ubuntu Server utilizando o: __`ChatGPT`__ como: __`Suporte Nível 1 (Documentação)`__
-2. Digitar os principais comandos básicos para documentar o servidor, solicitar para o: __`ChatGPT`__ explicar o que cada comando faz e qual o seu objetivo: __`Exemplo: o que é e para que serve o comando: hostname`__
+1. Documentação básica do servidor Ubuntu Server utilizando o: __`ChatGPT`__ como: __`Analista de Redes (Documentação)`__
+2. Digitar os principais comandos básicos para documentar o servidor, solicitar para o: __`ChatGPT`__ explicar o que cada comando faz e qual o seu objetivo: __`Exemplo: o que é e para que serve o comando: hostname (de forma simples, objetiva e direta)`__
 3. Copiar todo o conteúdo exibido na tela e colar no arquivo do: __`VSCode: Aula05-Lab05-AtividadeFinal.md`__
 4. **OBSERVAÇÃO:** SEPARAR OS CONTEÚDOS SALVOS COM: __`Duas Linhas <Dois Enters>`__
 
