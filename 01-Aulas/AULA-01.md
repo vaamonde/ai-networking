@@ -1,10 +1,10 @@
 > "Autor: Robson Vaamonde - Versão: 1.0 - Data de alteração: 25/03/2026"
 
-> “Aqui vocês vão trabalhar como profissionais de infraestrutura moderna: __`documentando, versionando, testando e usando IA como apoio`__.”
+> “Aqui vocês vão trabalhar como profissionais de infraestrutura moderna: __`Documentando, Versionando, Testando e usando IA como Apoio`__.”
 
 🗓️ **AULA 01** — Introdução à IA (Inteligência Artificial - AI Artificial Intelligence) aplicada a **Redes de Computadores**
 
-🎯 **Objetivo da Aula:** Nivelar a turma e quebrar o mito da IA, mostrando seu uso prático no dia a dia do profissional de redes.
+🎯 **Objetivo da Aula:** Nivelar a turma e quebrar o mito da **IA**, mostrando seu uso prático no dia a dia do profissional de redes.
 
 ***ANTES DE INICIAR:** CLIQUE NO LINK: https://forms.office.com/r/xcGsvK6Bbm (PEQUENA AVALIAÇÃO DE INGRESSANTE)
 
@@ -21,7 +21,7 @@
   - Alucinação
   - Segurança
   - Privacidade
-5. Link do material: https://github.com/vaamonde/ai-networking/blob/main/05-Pdfs/Apresentacao.pdf
+5. Link do material: https://github.com/vaamonde/ai-networking/blob/main/06-Pdfs/Apresentacao.pdf
 ---
 
 📝 **Metodologia:**
@@ -31,9 +31,13 @@
 3. Demonstração ao vivo (usar IA para resolver um problema de rede)
 ---
 
+💻 **Ferramenta da Primeira Aula**
+
+1. Utilizar o **ChatGPT** (OpenAI): https://chatgpt.com/
+
 💻 **Atividade Prática:**
 
-1. Primeiro contato com **ChatGPT** (OpenAI), **Copilot** (Microsoft), **Gemini** (Google) e **Claude** (Anthropic)
+1. Primeiro contato com **ChatGPT** (OpenAI)
   - **OBSERVAÇÃO:** Recomendo utilizar as Plataformas de IA __`Autenticado`__ com sua **Conta Pessoal**
 2. Usar IA como **Especialista em Redes** para resolver um problema técnico específico
 3. Comparar: __`Resposta Técnica`__ **×** __`Resposta Genérica`__ da IA
