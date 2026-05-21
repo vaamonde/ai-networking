@@ -67,7 +67,7 @@ network:
       addresses: [10.24.82.200/24]
       nameservers: 
         addresses: [8.8.8.8, 8.8.4.4]
-      routers:
+      routes:
         - to: default
           via: 10.24.82.1
 ```
