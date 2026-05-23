@@ -40,7 +40,7 @@
 > "O que é um ambiente de Servidor Corporativo utilizando GNU/Linux?"
 
 5. Depois perguntar no mesmo Prompting sobre um __`Cenário mais Específico`__.
-> "Considere um ambiente GNU/Linux utilizando a distribuição Ubuntu Server Corporativo versão 22.04.4 LTS com serviços básicos para Web Server ativos e firewall não configurado."
+> "Considere um ambiente GNU/Linux utilizando a distribuição Ubuntu Server Corporativo versão 22.04.4 LTS com serviços básicos (instalados e configurados) para Web Server ativos e firewall não configurado."
 ---
 
 📊 **Analisar os resultados:**
