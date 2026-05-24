@@ -7,7 +7,7 @@
 🧠 **Conteúdo da Aula:**
 
 1. Utilizar o **ChatGPT** com uma conta de __`Estudo`__: https://chatgpt.com/
-  - **Observação:** Nào recomendo usar uma conta pessoal e nem profissional para as aulas
+  - **Observação:** Não é recomendo usar uma conta __`Pessoal`__ ou __`Profissional`__ para as aulas
 2. Personalização do **ChatGPT**
   - Perfil Técnico
   - Criação de Projeto
@@ -51,8 +51,8 @@
 💻 **Atividade prática 02: Criar um diretório de Projeto no ChatGPT**
 
 1. Criar um **"Novo Projeto de Prompting"** no ChatGPT
-  - Nome do projeto: **Aula01-Lab01 IA como Analista de TI**
-    - **OBSERVAÇÃO:** - Clicar na "Engrenagem" e selecionar: __`Apenas Projeto`__
+  - Nome do projeto: **Aula02-Lab01 IA como Analista de TI**
+    - **OBSERVAÇÃO:** Clicar na "Engrenagem" e selecionar: __`Apenas Projeto`__
   - Para finalizar clique em: __`Criar projeto`__
 
 📝 **Engenharia de Prompts 02: Pergunta Genérica sobre Redes**
@@ -62,7 +62,7 @@
 O que é um ambiente de Servidor Corporativo utilizando GNU/Linux?
 ```
 
-1. No mesmo __`Prompting`__ fazer uma nva pergunta sobre um __`Cenário mais Específico`__.
+1. No mesmo __`Prompting`__ fazer uma nova pergunta sobre um __`Cenário mais Específico`__.
 ```txt
 Considere um ambiente GNU/Linux utilizando a distribuição Ubuntu Server Corporativo (Empresarial)
 versão 22.04.4 LTS (Long-Term Support) com serviços básicos (instalados e configurados) para um 
@@ -85,10 +85,10 @@ ambiente de Servidor Web (Web Server) ativos e firewall não configurado.
   - foi muito genérico no resultado?
 ---
 
-🧠 **Atividade com IA 01: Pergunta um pouco mais elaborada para IA (Zero-Shot Prompting)**
+🧠 **Atividade com IA 01: Pergunta um pouco mais elaborada (Zero-Shot Prompting)**
 
 1. Limpar todos os Prompting do ChatGPT **(Clear)**
-  - Volte para o projeto, no primeiro chat em: __`3 (pontinhos)`__ e selecione: __`Excluir`__
+  - Volte para o projeto, no primeiro chat clique em: __`3 (pontinhos)`__, selecione: __`Excluir`__
 ---
 
 📝 **Engenharia de Prompts 01: Modelo Zero-Shot = Classificação Sem Contexto**
@@ -105,8 +105,10 @@ ambiente de Servidor Web (Web Server) ativos e firewall não configurado.
 🧪 **Laboratório 02: Utilizando o Zero-Shot no ChatGPT**
 
 📝 **Primeiro Prompting Zero-Shot**
-
-> "Preciso instalar o Linux no VirtualBOX para iniciar a Aula de Inteligência Artificial para Redes de Computadores."
+```txt
+Preciso instalar o Linux no VirtualBOX para iniciar a Aula de Inteligência Artificial para Redes
+de Computadores.
+```
 ---
 
 📝 **Registro das atividades:**
@@ -120,9 +122,21 @@ ambiente de Servidor Web (Web Server) ativos e firewall não configurado.
 
 1. Limpar a resposta do ChatGPT antes de fazer a próxima pergunta.
 
-**OBSERVAÇÃO:** Nesse prompting aparece dois __`Papeis (funções):`__ do **Aluno** e do **Professor**, dois locais físicos __`Cenário (onde acontece):`__ **SENAC SP** e no **Laboratório** trás uma __`Diretiva (ordem):`__ **Simples, Objetivo e Direto** conclui com o __`Objetivo:`__ **Aulas Práticas** e **Acesso Remoto**
+**OBSERVAÇÃO:** Nesse prompting aparece dois __`Papeis (Funções):`__ do **Aluno** e do **Professor**, dois locais físicos __`Cenário (Onde Acontece):`__ **SENAC SP Unidade Tito** e no **Laboratório de Informática** trás uma __`Diretiva (Ordem/Ação):`__ **Simples, Objetivo e Direto** conclui com o __`Objetivo:`__ **Aulas Práticas** e **Acesso Remoto**
 
-> "Sou Aluno do Curso Livre de Inteligência Artificial Voltada a Redes de Computadores do SENAC São Paulo Unidade Lapa Tito, preciso importar uma imagem da máquina virtual do GNU/Linux Ubuntu Server 22.04.4 LTS desenvolvida pelo Professor Robson Vaamonde no Oracle Virtualbox versão 7.2 já instalado e configurado nos computadores do laboratório de informática da unidade, o sistema operacional dos laboratórios é o Microsoft Windows 11, essa imagem já foi disponibilizada pelo Professor para fazer o download e está disponível na pasta Downloads com o nome de UbuntuServer-OnPremises.ova, essa imagem será utilizada em todas as aulas práticas de IA. Para essa atividade preciso de um passo a passo detalhado (Simples, Objetivo, Direto e pode usar Ícones para facilitar o entendimento) mostrando como importar essa imagem e configurar a rede em modo Bridge (Ponte) utilizando a rede cabeada local do laboratório e no final iniciar a máquina virtual para acesso remoto via SSH (Secure Shell)."
+```txt
+Sou Aluno do Curso Livre de Inteligência Artificial Voltada a Redes de Computadores do SENAC São 
+Paulo Unidade Lapa Tito, preciso importar uma imagem da máquina virtual do GNU/Linux Ubuntu 
+Server 22.04.4 LTS desenvolvida pelo Professor Robson Vaamonde no Oracle Virtualbox versão 7.2 
+já instalado e configurado nos computadores do laboratório de informática da unidade, o sistema 
+operacional dos laboratórios é o Microsoft Windows 11, essa imagem já foi disponibilizada pelo 
+Professor para fazer o download e está disponível na pasta Downloads com o nome de 
+UbuntuServer-OnPremises.ova, essa imagem será utilizada em todas as aulas práticas de IA. Para 
+essa atividade preciso de um passo a passo detalhado (Simples, Objetivo, Direto e pode usar 
+Ícones para facilitar o entendimento) mostrando como importar essa imagem e configurar a rede em 
+modo Bridge (Ponte) utilizando a rede cabeada local do laboratório e no final iniciar a máquina 
+virtual para acesso remoto via SSH (Secure Shell).
+```
 ---
 
 📝 **Registro das atividades:**
@@ -176,18 +190,21 @@ git clone https://github.com/seu_usuario/ai-network-senac-tit
 
 1. Criar o diretório/arquivo: __`labs/aula02-chatgpt.md`__
 
-➕ **Adicionar os resultados:**
+➕ **Adicionar os resultados 01: ChatGPT e dos Prompts**
 
 1. Segundo Prompting Zero-Shot (um pouco mais elaborado)
 
 2. ✔️ Análise crítica do resultado do prompt
   > Sua análise pessoal sobre o resultado do prompt
+---
 
 3. ✔️ Conclusão técnica do resultado do prompt
   > Sua conclusão técnica sobre o resultado do prompt
+---
 
 4. 📌 Onde a IA generalizou?
   > Direta e objetiva sobre a alucinação da AI no resultado do prompt
+---
 
 5. 📌 Onde faltou contexto?
   > O que você sentiu falta para melhorar o resultado do prompt
