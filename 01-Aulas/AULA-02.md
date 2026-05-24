@@ -122,7 +122,7 @@ de Computadores.
 
 1. Limpar a resposta do ChatGPT antes de fazer a próxima pergunta.
 
-**OBSERVAÇÃO:** Nesse prompting aparece dois __`Papeis (Funções):`__ do **Aluno** e do **Professor**, dois locais físicos __`Cenário (Onde Acontece):`__ **SENAC SP Unidade Tito** e no **Laboratório de Informática** trás uma __`Diretiva (Ordem/Ação):`__ **Simples, Objetivo e Direto** conclui com o __`Objetivo:`__ **Aulas Práticas** e **Acesso Remoto**
+**OBSERVAÇÃO:** Nesse prompting aparece dois __`Papeis (Funções):`__ do **Aluno** e do **Professor**, dois locais físicos __`Cenário (Onde Acontece):`__ **SENAC SP Unidade Tito** e no **Laboratório de Informática**, trás uma __`Diretiva (Ordem/Ação):`__ **Simples, Objetivo e Direto (Redundante)** e conclui com o __`Objetivo:`__ **Aulas Práticas** e **Acesso Remoto**
 
 ```txt
 Sou Aluno do Curso Livre de Inteligência Artificial Voltada a Redes de Computadores do SENAC São 
