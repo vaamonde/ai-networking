@@ -34,6 +34,26 @@
 💻 **Ferramenta da Primeira Aula**
 
 1. Utilizar o **ChatGPT** (OpenAI): https://chatgpt.com/
-  - Criar uma conta para **Estudos**
-2. Utilizar o **Github** (Microsoft): https://github.com
-  - Criar uma conta ou utilizar uma conta existente
+
+💻 **Atividade Prática:**
+
+1. Primeiro contato com **ChatGPT** (OpenAI)
+  - **OBSERVAÇÃO:** Recomendo utilizar as Plataformas de IA __`Autenticado`__ com sua **Conta Pessoal**
+2. Usar IA como **Especialista em Redes** para resolver um problema técnico específico
+3. Comparar: __`Resposta Técnica`__ **×** __`Resposta Genérica`__ da IA
+---
+
+🧪 **Laboratório 01:**
+
+1. Link do material: https://github.com/vaamonde/ai-networking/blob/main/02-Labs/AULA-01-LAB-01.md
+---
+
+📝 **Engenharia de Prompts:**
+
+1. Link do material: https://github.com/vaamonde/ai-networking/blob/main/03-Prompts/PROMPT-01.md
+---
+
+📝 **Material de Apoio:**
+
+1. Link do material: https://github.com/vaamonde/ai-networking/blob/main/04-Apoio/AULA-01-APOIO-01.md
+---

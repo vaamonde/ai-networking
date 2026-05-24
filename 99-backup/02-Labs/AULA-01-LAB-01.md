@@ -32,7 +32,7 @@
 ---
 
 3. Criar um **"Novo Projeto de Prompting"** no ChatGPT
-  - Nome do projeto: **Aula01-Lab01 IA como Analista de TI**
+  - Nome do projeto: **Aula01-Lab01 IA como Consultor de TI**
     - **OBSERVAÇÃO:** - Clicar na "Engrenagem" e selecionar: __`Apenas Projeto`__
   - Para finalizar clique em: __`Criar projeto`__
 
