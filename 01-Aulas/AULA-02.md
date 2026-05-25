@@ -28,9 +28,9 @@
 
 📝 **Metodologia:**
 
-1. Exposição dialogada (conversação, perguntas e respostas)
+1. Exposição Dialogada (conversação, perguntas e respostas)
 2. Brainstorming (tempestade de ideias)
-3. Experimentação guiada (laboratório prático)
+3. Experimentação Guiada (laboratório prático)
 ---
 
 📥 **Download da Máquina Virtual (VirtualBOX) APENAS BAIXAR NÃO EXECUTAR**
@@ -42,21 +42,24 @@
 **Observação:** Utilizar nessa atividade o **OpenAI ChatGPT:** https://chatgpt.com/ (Simples e Objetivo)
 
 1. Personalizar o ChatGPT para o **Perfil Técnico**
-  - Clique no __`Nome do seu Usuário`__, selecione: **Configurações**
+  - Clique no __`Nome do seu Usuário (Free)`__, selecione: **Configurações**
 
 2. Em Configurações selecione: **Personalização**
   - Em __`Estilo e tom básicos`__ mude para: **Profissional (Preciso e Refinado)**
-  - Em __`Acolhedor`__ mude para: **Menos (Mais Factual e Profissional)**
-  - Em __`Entusiasmado`__ mude para: **Menos (Mais Calmo e Neutro)**
+  - Em Características __`Acolhedor`__ mude para: **Menos (Mais Factual e Profissional)**
+  - Em Características __`Entusiasmado`__ mude para: **Menos (Mais Calmo e Neutro)**
   - Em __`Memória`__ clique em: **Gerenciar**
-    - **Dica** limpar todas as memórias: __`3 pontinhos`__ selecione: **Excluir todas as memórias**
+    - **Dica** limpar todas as memórias clique nos: __`3 Pontinhos`__ selecione: **Excluir todas as memórias**
+
+3. Em Controles de dados selecione: **Excluir todos os chats**
+  - **Dica** limpar todos os chats clique em: **Excluir tudo** depois: **Confirmar Exclusão**
 ---
 
 💻 **Atividade prática 02: Criar um diretório de Projeto no ChatGPT**
 
-1. Criar um **"Novo Projeto de Prompting"** no ChatGPT
+1. Criar um **"Novo Projeto de Prompting"** no ChatGPT, clique em: **Novo**
   - Nome do projeto: **Aula02-Lab01 IA como Analista de TI**
-    - **OBSERVAÇÃO:** Clicar na "Engrenagem" e selecionar: __`Apenas Projeto`__
+    - **OBSERVAÇÃO:** Clicar na **Engrenagem** e selecionar: __`Apenas Projeto`__
   - Para finalizar clique em: __`Criar projeto`__
 
 📝 **Engenharia de Prompts 02: Pergunta Genérica sobre Redes**
@@ -92,7 +95,7 @@ ambiente de Servidor Web (Web Server) ativos e firewall não configurado.
 🧠 **Atividade com IA 01: Pergunta um pouco mais elaborada (Zero-Shot Prompting)**
 
 1. Limpar todos os Prompting do ChatGPT **(Clear)**
-  - Volte para o projeto, no primeiro chat clique em: __`3 (pontinhos)`__, selecione: __`Excluir`__
+  - Volte para o projeto, no primeiro chat clique em: __`3 Pontinhos`__, selecione: __`Excluir`__ depois: __`Excluir`__
 ---
 
 📝 **Engenharia de Prompts 01: Modelo Zero-Shot = Classificação Sem Contexto**
@@ -101,14 +104,14 @@ ambiente de Servidor Web (Web Server) ativos e firewall não configurado.
 
 2. **Quais são as Vantagens e Desvantagens do modelo Zero-Shot Prompting?** 
   - __`Vantagens:`__ O zero-shot prompting pode ser útil para obter **Respostas Rápidas e Diretas**, especialmente quando o modelo tem um **Conhecimento Prévio Suficiente** sobre o tópico. Ele pode ser eficaz para __`Perguntas Simples`__ ou para obter uma resposta **Geral** sobre um assunto.
-  - __`Desvantagens:`__ O zero-shot prompting pode resultar em **Respostas Menos Precisas ou Relevantes**, especialmente se o modelo não tiver conhecimento suficiente sobre o tópico ou se a pergunta for __`Ambígua (múltiplos sentidos)`__. Ele pode não ser tão eficaz para __`Perguntas Complexas`__ ou para obter informações detalhadas.
+  - __`Desvantagens:`__ O zero-shot prompting pode resultar em **Respostas Menos Precisas ou Relevantes**, especialmente se o modelo não tiver conhecimento suficiente sobre o tópico ou se a pergunta for __`Ambígua (Múltiplos Sentidos)`__. Ele pode não ser tão eficaz para __`Perguntas Complexas`__ ou para obter informações detalhadas.
 
 3. **Dica de Filme:** — O filme **O Fenômeno" (2003)**. Ele conta a história de um homem comum que, após um evento misterioso, começa a desenvolver **Habilidades Extraordinárias**, incluindo uma __`Inteligência Super-Humana`__. O filme explora temas relacionados à __`Inteligência Artificial`__, o poder do conhecimento e às implicações **Éticas** de tais habilidades. É uma ótima escolha para quem deseja refletir sobre o impacto da __`IA na Sociedade e na Vida Humana`__.
 ---
 
 🧪 **Laboratório 02: Utilizando o Zero-Shot no ChatGPT**
 
-📝 **Primeiro Prompting Zero-Shot**
+📝 **Primeiro Prompting Zero-Shot (genérico, simples, sem clareza)**
 ```txt
 Preciso instalar o Linux no VirtualBOX para iniciar a Aula de Inteligência Artificial para Redes
 de Computadores.
@@ -126,7 +129,12 @@ de Computadores.
 
 1. Limpar a resposta do ChatGPT antes de fazer a próxima pergunta.
 
-**OBSERVAÇÃO:** Nesse prompting aparece dois __`Papeis (Funções):`__ do **Aluno** e do **Professor**, dois locais físicos __`Cenário (Onde Acontece):`__ **SENAC SP Unidade Tito** e no **Laboratório de Informática**, trás uma __`Diretiva (Ordem/Ação):`__ **Simples, Objetivo e Direto (Redundante)** e conclui com o __`Objetivo:`__ **Aulas Práticas** e **Acesso Remoto**
+**OBSERVAÇÃO:** Nesse prompting aparece:
+  - Dois __`Papeis (Funções):`__ do **Aluno** e do **Professor**;
+  - Dois __`Cenário (Onde Acontece):`__ **SENAC SP Unidade Tito** e no **Laboratório de Informática**;
+  - Uma __`Diretiva (Ordem/Ação):`__ **Simples, Objetivo e Direto (Redundante não Ambíguo - Duplo Sentido)**;
+  - Um __`Objetivo:`__ **Aulas Práticas** e **Acesso Remoto**;
+  - Uma __`Saída dos Dados:`__ Download em **Markdown**
 
 ```txt
 Sou Aluno do Curso Livre de Inteligência Artificial Voltada a Redes de Computadores do SENAC São 
@@ -134,12 +142,13 @@ Paulo Unidade Lapa Tito, preciso importar uma imagem da máquina virtual do GNU/
 Server 22.04.4 LTS desenvolvida pelo Professor Robson Vaamonde no Oracle Virtualbox versão 7.2 
 já instalado e configurado nos computadores do laboratório de informática da unidade, o sistema 
 operacional dos laboratórios é o Microsoft Windows 11, essa imagem já foi disponibilizada pelo 
-Professor para fazer o download e está disponível na pasta Downloads com o nome de 
+Professor para fazer o download e está disponível na pasta Downloads do Computador com o nome de 
 UbuntuServer-OnPremises.ova, essa imagem será utilizada em todas as aulas práticas de IA. Para 
 essa atividade preciso de um passo a passo detalhado (Simples, Objetivo, Direto e pode usar 
 Ícones para facilitar o entendimento) mostrando como importar essa imagem e configurar a rede em 
-modo Bridge (Ponte) utilizando a rede cabeada local do laboratório e no final iniciar a máquina 
-virtual para acesso remoto via SSH (Secure Shell).
+Modo Bridge (Ponte) utilizando a rede cabeada local do laboratório e no final iniciar a máquina 
+virtual para acesso remoto via SSH (Secure Shell). No final disponibilizar o arquivo para download
+no formato Markdown.
 ```
 ---
 
@@ -168,7 +177,7 @@ virtual para acesso remoto via SSH (Secure Shell).
   - Descrição: **Alterar caso necessário**
   - Website: **Deixar em branco**
   - Tópicos: **ai ai-network ia ia-redes network artificial-intelligence inteligencia-artificial**
-  - __`Save Changes (Salvar changes)`__
+  - __`Save Changes (Salvar Mudanças)`__
 ---
 
 🧩 **Clonando o Repositório Remoto no Computador Local**
