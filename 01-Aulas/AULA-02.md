@@ -151,10 +151,13 @@ UbuntuServer-OnPremises.ova, essa imagem será utilizada em todas as aulas prát
 essa atividade preciso de um passo a passo detalhado (Simples, Objetivo, Direto e pode usar 
 Ícones para facilitar o entendimento) mostrando como importar essa imagem e configurar a rede em 
 Modo Bridge (Ponte) utilizando a rede cabeada local do laboratório e no final iniciar a máquina 
-virtual para acesso remoto via SSH (Secure Shell). No final disponibilizar o arquivo para download
-no formato Markdown.
+virtual para acesso remoto via SSH (Secure Shell).
 ```
 ---
+
+**OBSERVAÇÃO:** Executar o mesmo prompt adicionando no final o texto: No final disponibilizar o 
+arquivo para download no formato Markdown.
+
 
 📝 **Registro das atividades:**
 
