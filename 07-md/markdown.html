@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Markdown — Referência Completa para Documentação</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f9f9f7;
+    color: #1a1a18;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #1a1a18; color: #e8e6de; }
+  }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  h1 { font-size: 20px; font-weight: 500; margin-bottom: 4px; }
+  .sub { font-size: 13px; color: #73726c; margin-bottom: 1.2rem; }
+  @media (prefers-color-scheme: dark) { .sub { color: #9c9a92; } }
+
+  .filter-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 1.2rem; }
+  .chip {
+    font-size: 12px; padding: 4px 11px; border-radius: 20px; cursor: pointer;
+    border: 0.5px solid #b4b2a9; color: #5f5e5a;
+    background: #f1efe8; transition: all .15s;
+  }
+  .chip:hover { background: #e8e6de; }
+  .chip.active { background: #185FA5; border-color: #185FA5; color: #fff; }
+  @media (prefers-color-scheme: dark) {
+    .chip { background: #2c2c2a; border-color: #5f5e5a; color: #b4b2a9; }
+    .chip:hover { background: #3d3d3a; }
+  }
+
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead tr { border-bottom: 1.5px solid #b4b2a9; }
+  @media (prefers-color-scheme: dark) { thead tr { border-bottom-color: #5f5e5a; } }
+  th {
+    font-size: 11px; font-weight: 500; text-transform: uppercase;
+    letter-spacing: .06em; color: #888780;
+    padding: 7px 10px; text-align: left;
+  }
+  td { padding: 9px 10px; vertical-align: top; border-bottom: 0.5px solid #e8e6de; word-break: break-word; }
+  @media (prefers-color-scheme: dark) { td { border-bottom-color: #2c2c2a; } }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: #f1efe8; }
+  @media (prefers-color-scheme: dark) { tr:hover td { background: #2c2c2a; } }
+
+  .cmd {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px; background: #f1efe8;
+    border: 0.5px solid #b4b2a9; border-radius: 5px;
+    padding: 2px 7px; color: #185FA5; display: inline-block; white-space: nowrap;
+  }
+  @media (prefers-color-scheme: dark) {
+    .cmd { background: #2c2c2a; border-color: #5f5e5a; color: #85B7EB; }
+  }
+
+  .badge {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-size: 10px; font-weight: 500; padding: 2px 8px;
+    border-radius: 20px; white-space: nowrap;
+  }
+  .b-text   { background: #EEEDFE; color: #3C3489; }
+  .b-struct { background: #EEEDFE; color: #3C3489; }
+  .b-media  { background: #E1F5EE; color: #085041; }
+  .b-code   { background: #FAECE7; color: #712B13; }
+  .b-table  { background: #FAEEDA; color: #633806; }
+  .b-ext    { background: #FBEAF0; color: #72243E; }
+  @media (prefers-color-scheme: dark) {
+    .b-text   { background: #3C3489; color: #CECBF6; }
+    .b-struct { background: #3C3489; color: #CECBF6; }
+    .b-media  { background: #085041; color: #9FE1CB; }
+    .b-code   { background: #712B13; color: #F5C4B3; }
+    .b-table  { background: #633806; color: #FAC775; }
+    .b-ext    { background: #72243E; color: #F4C0D1; }
+  }
+
+  .desc { color: inherit; line-height: 1.5; }
+  .ex { color: #73726c; font-size: 12px; margin-top: 4px; line-height: 1.5; }
+  @media (prefers-color-scheme: dark) { .ex { color: #9c9a92; } }
+
+  .count { font-size: 12px; color: #888780; margin-bottom: 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>📋 Markdown — Referência Completa para Documentação</h1>
+  <p class="sub">Referência de formatações Markdown para uso no VSCode. Filtrar por categoria:</p>
+  <div class="filter-row" id="filters">
+    <button class="chip active" onclick="filter('all',this)">Todas</button>
+    <button class="chip" onclick="filter('text',this)">✍️ Texto</button>
+    <button class="chip" onclick="filter('struct',this)">🏗️ Estrutura</button>
+    <button class="chip" onclick="filter('media',this)">🖼️ Mídia</button>
+    <button class="chip" onclick="filter('code',this)">💻 Código</button>
+    <button class="chip" onclick="filter('table',this)">📊 Tabelas</button>
+    <button class="chip" onclick="filter('ext',this)">⚡ Extras</button>
+  </div>
+  <p class="count" id="count"></p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th style="width:22%">Categoria</th>
+          <th style="width:26%">TAG / Sintaxe</th>
+          <th style="width:28%">Descrição</th>
+          <th style="width:24%">Exemplo de uso</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+</div>
+<script>
+const data = [
+  {cat:'text',badge:'b-text',label:'✍️ Texto',tag:'# H1',desc:'Título principal (nível 1)',ex:'# Introdução'},
+  {cat:'text',badge:'b-text',label:'✍️ Texto',tag:'## H2',desc:'Subtítulo (nível 2)',ex:'## Instalação'},
+  {cat:'text',badge:'b-text',label:'✍️ Texto',tag:'### H3',desc:'Seção (nível 3)',ex:'### Pré-requisitos'},
+  {cat:'text',badge:'b-text',label:'✍️ Texto',tag:'#### H4',desc:'Sub-seção (nível 4)',ex:'#### Detalhes técnicos'},
+  {cat:'text',badge:'b-text',label:'✍️ Texto',tag:'##### H5',desc:'Nível 5 (raramente usado)',ex:'##### Observação'},
+  {cat:'text',badge:'b-text',label:'✍️ Texto',tag:'###### H6',desc:'Nível 6 (mais profundo)',ex:'###### Nota rodapé'},
+  {cat:'text',badge:'b-text',label:'✍️ Texto',tag:'**texto**',desc:'Texto em negrito',ex:'**importante**'},
+  {cat:'text',badge:'b-text',label:'✍️ Texto',tag:'*texto*',desc:'Texto em itálico',ex:'*observação*'},
+  {cat:'text',badge:'b-text',label:'✍️ Texto',tag:'~~texto~~',desc:'Texto tachado (riscado)',ex:'~~depreciado~~'},
+  {cat:'text',badge:'b-text',label:'✍️ Texto',tag:'***texto***',desc:'Negrito + itálico combinados',ex:'***crítico***'},
+  {cat:'text',badge:'b-text',label:'✍️ Texto',tag:'> texto',desc:'Bloco de citação (blockquote)',ex:'> ⚠️ Atenção: cuidado aqui'},
+  {cat:'text',badge:'b-text',label:'✍️ Texto',tag:'---',desc:'Linha horizontal divisória',ex:'--- (separar seções)'},
+  {cat:'text',badge:'b-text',label:'✍️ Texto',tag:'<br>',desc:'Quebra de linha explícita',ex:'Linha 1<br>Linha 2'},
+  {cat:'text',badge:'b-text',label:'✍️ Texto',tag:'&nbsp;',desc:'Espaço não-quebrável (HTML)',ex:'Col1&nbsp;&nbsp;Col2'},
+
+  {cat:'struct',badge:'b-struct',label:'🏗️ Estrutura',tag:'- item',desc:'Lista não-ordenada',ex:'- Funcionalidade A'},
+  {cat:'struct',badge:'b-struct',label:'🏗️ Estrutura',tag:'* item',desc:'Lista não-ordenada (alt)',ex:'* opção 1'},
+  {cat:'struct',badge:'b-struct',label:'🏗️ Estrutura',tag:'1. item',desc:'Lista ordenada/numerada',ex:'1. Instalar  2. Configurar'},
+  {cat:'struct',badge:'b-struct',label:'🏗️ Estrutura',tag:'  - subitem',desc:'Lista aninhada (2 espaços)',ex:'- Item   - Subitem'},
+  {cat:'struct',badge:'b-struct',label:'🏗️ Estrutura',tag:'- [ ] tarefa',desc:'Checkbox não marcado (to-do)',ex:'- [ ] Revisar código'},
+  {cat:'struct',badge:'b-struct',label:'🏗️ Estrutura',tag:'- [x] tarefa',desc:'Checkbox marcado (concluído)',ex:'- [x] Deploy feito'},
+
+  {cat:'media',badge:'b-media',label:'🖼️ Mídia',tag:'[texto](url)',desc:'Link clicável para URL',ex:'[Docs](https://docs.com)'},
+  {cat:'media',badge:'b-media',label:'🖼️ Mídia',tag:'![alt](url)',desc:'Imagem inline',ex:'![Logo](./img/logo.png)'},
+  {cat:'media',badge:'b-media',label:'🖼️ Mídia',tag:'[texto][id]',desc:'Link com referência definida',ex:'[GitHub][gh]  [gh]: https://...'},
+  {cat:'media',badge:'b-media',label:'🖼️ Mídia',tag:'<url>',desc:'Link automático (URL direta)',ex:'<https://exemplo.com>'},
+
+  {cat:'code',badge:'b-code',label:'💻 Código',tag:'`código`',desc:'Código inline (uma linha)',ex:'Use `npm install` para instalar'},
+  {cat:'code',badge:'b-code',label:'💻 Código',tag:'```lang ... ```',desc:'Bloco de código com highlight',ex:'```python\nprint("hello")\n```'},
+  {cat:'code',badge:'b-code',label:'💻 Código',tag:'```bash',desc:'Bloco de terminal / shell',ex:'```bash\nnpm run dev\n```'},
+  {cat:'code',badge:'b-code',label:'💻 Código',tag:'```json',desc:'Bloco JSON formatado',ex:'```json\n{"key": "value"}\n```'},
+  {cat:'code',badge:'b-code',label:'💻 Código',tag:'```diff',desc:'Diff com +/- coloridos',ex:'+ adicionado  - removido'},
+  {cat:'code',badge:'b-code',label:'💻 Código',tag:'    (4 espaços)',desc:'Bloco de código (indentação)',ex:'    código aqui'},
+
+  {cat:'table',badge:'b-table',label:'📊 Tabelas',tag:'| col | col |',desc:'Tabela — linha de dados',ex:'| Nome | Valor |'},
+  {cat:'table',badge:'b-table',label:'📊 Tabelas',tag:'| --- | --- |',desc:'Tabela — separador obrigatório',ex:'| --- | --- |'},
+  {cat:'table',badge:'b-table',label:'📊 Tabelas',tag:'| :--- |',desc:'Alinhamento à esquerda',ex:'| :--- | (padrão)'},
+  {cat:'table',badge:'b-table',label:'📊 Tabelas',tag:'| ---: |',desc:'Alinhamento à direita',ex:'| ---: | (números)'},
+  {cat:'table',badge:'b-table',label:'📊 Tabelas',tag:'| :---: |',desc:'Alinhamento centralizado',ex:'| :---: | (títulos)'},
+
+  {cat:'ext',badge:'b-ext',label:'⚡ Extras',tag:'\\*texto\\*',desc:'Escapar caractere especial',ex:'\\*não é itálico\\*'},
+  {cat:'ext',badge:'b-ext',label:'⚡ Extras',tag:'<!-- comentário -->',desc:'Comentário (não renderiza)',ex:'<!-- TODO: atualizar -->'},
+  {cat:'ext',badge:'b-ext',label:'⚡ Extras',tag:'[^1]',desc:'Nota de rodapé (referência)',ex:'Texto[^1]  [^1]: Explicação'},
+  {cat:'ext',badge:'b-ext',label:'⚡ Extras',tag:'<details>',desc:'Seção recolhível (HTML)',ex:'<details><summary>Ver</summary>...</details>'},
+  {cat:'ext',badge:'b-ext',label:'⚡ Extras',tag:'<kbd>tecla</kbd>',desc:'Atalho de teclado',ex:'<kbd>Ctrl</kbd>+<kbd>S</kbd>'},
+  {cat:'ext',badge:'b-ext',label:'⚡ Extras',tag:'<mark>texto</mark>',desc:'Texto destacado/marcado',ex:'<mark>atenção</mark>'},
+  {cat:'ext',badge:'b-ext',label:'⚡ Extras',tag:'[id]: url "title"',desc:'Link por referência global',ex:'[logo]: /img/logo.png "Logo"'},
+  {cat:'ext',badge:'b-ext',label:'⚡ Extras',tag:'emoji :nome:',desc:'Emoji via shortcode (extensão)',ex:':white_check_mark: Concluído'},
+];
+
+function esc(s){
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function render(cat){
+  const rows = cat==='all' ? data : data.filter(r=>r.cat===cat);
+  document.getElementById('count').textContent = rows.length + ' itens';
+  document.getElementById('tbody').innerHTML = rows.map(r=>`
+    <tr>
+      <td><span class="badge ${r.badge}">${r.label}</span></td>
+      <td><code class="cmd">${esc(r.tag)}</code></td>
+      <td class="desc">${esc(r.desc)}</td>
+      <td><span class="ex">${esc(r.ex)}</span></td>
+    </tr>
+  `).join('');
+}
+
+function filter(cat,btn){
+  document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
+  btn.classList.add('active');
+  render(cat);
+}
+
+render('all');
+</script>
+</body>
+</html>
