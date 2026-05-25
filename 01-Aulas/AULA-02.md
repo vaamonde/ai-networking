@@ -37,6 +37,10 @@
 
 1. Download da VM Ubuntu Server On-Premises: https://drive.google.com/file/d/1Jk__K5d-MtDLx40EwksriwY7_DpPY39p/view?usp=sharing
 
+📝 **Documentação em Tempo Real das Aulas**
+
+1. Link documentação On-Line: https://dontpad.com/vaamonde
+
 💻 **Atividade prática 01: Personalizar o ChatGPT**
 
 **Observação:** Utilizar nessa atividade o **OpenAI ChatGPT:** https://chatgpt.com/ (Simples e Objetivo)
