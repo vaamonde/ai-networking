@@ -82,7 +82,7 @@ ss -tulnp
 
 📝 **Registro das atividades:**
 
-1. Criar o diretório/arquivo: __`labs/aula03-documentacao.md`__
+1. Criar o diretório/arquivo: __`labs/aula03-docs.md`__
 ---
 
 **Adicionar na documentação:**

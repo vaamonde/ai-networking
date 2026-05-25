@@ -33,6 +33,10 @@
 3. Experimentação guiada (laboratório prático)
 ---
 
+📥 **Download da Máquina Virtual (VirtualBOX) APENAS BAIXAR NÃO EXECUTAR**
+
+1. Download da VM Ubuntu Server On-Premises: https://drive.google.com/file/d/1Jk__K5d-MtDLx40EwksriwY7_DpPY39p/view?usp=sharing
+
 💻 **Atividade prática 01: Personalizar o ChatGPT**
 
 **Observação:** Utilizar nessa atividade o **OpenAI ChatGPT:** https://chatgpt.com/ (Simples e Objetivo)
