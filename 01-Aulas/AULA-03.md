@@ -22,13 +22,21 @@
 3. Experimentação guiada (laboratório prático)
 ---
 
-💻 **Atividade prática**
+💻 **Atividade prática 01: Criação dos Modelos**
 
 1. Criar:
   - Modelo de Documentação de Redes de Computadores
   - Checklist de Inventário de Redes de Computadores 
   - Procedimento Operacional Padrão (POP)
   - Ajustar a Linguagem Técnica com a IA
+---
+
+💻 **Atividade prática 02: Criar um diretório de Projeto no ChatGPT**
+
+1. Criar um **"Novo Projeto de Prompting"** no ChatGPT, clique em: **Novo**
+  - Nome do projeto: **Aula03-Lab02 IA como Admin de Redes**
+    - **OBSERVAÇÃO:** Clicar na **Engrenagem** e selecionar: __`Apenas Projeto`__
+  - Para finalizar clique em: __`Criar projeto`__
 ---
 
 💻 **Abrir o Repositório Local como Projeto no VScode**
@@ -73,7 +81,7 @@ ping google.com
 
 🧠 **IA deve te ajudar na melhoria da documentação:**
 
-1. Estruturar a documentação com base nos dados coletados, solicitar para formatar os dados em **Markdown**, utilizar **Tabelas e Ícones** para facilitar o entendimento e leitura da documentação, criar **Categorias e Sub-Categorias** para cada informação fornecida, solicitar que seja adicionado no final de cada tabela um **Resumo** sobre as informações de rede para facilitar o entendimento de **Pessoas/Profissionais** que não são **Técnicos em Redes de Computadores** entender melhor a documentação.
+1. Estruturar a documentação com base nos dados coletados, solicitar para formatar os dados em **Markdown**, utilizar **Tabelas e Ícones** para facilitar o entendimento e a leitura da documentação, criar **Categorias e Sub-Categorias** para cada informação fornecida, solicitar que seja adicionado no final de cada tabela um **Resumo** sobre as informações de rede para facilitar o entendimento de **Pessoas/Profissionais** que não são **Técnicos em Redes de Computadores** entender melhor a documentação.
 ---
 
 🔥 **Exigência para a IA:**
@@ -89,6 +97,9 @@ ping google.com
 2. IA é uma __`Ferramenta de Apoio`__, mas a responsabilidade final é do **Profissional de Infraestrutura de Redes de Computador saber o que está sendo Solicitado.**
 ---
 
+**OBSERVAÇÃO:** Executar o mesmo prompt adicionando no final o texto: No final disponibilizar o 
+arquivo para download no formato Markdown.
+
 🧪 **Laboratório 01: Utilizando o One-Shot no ChatGPT**
 
 🧠 **IA Conceito e Metodologia** (Modelo One-Shot Prompting = Passando um Modelo/Exemplo de Referência)
@@ -100,7 +111,11 @@ ping google.com
   - __`Desvantagens:`__ O one-shot prompting pode ser limitado se o exemplo **Fornecido não for Claro** ou se o modelo não conseguir **Generalizar** a partir do exemplo para responder as perguntas relacionadas. Além disso, o one-shot prompting pode não ser __`Tão Eficaz em casos onde o Modelo já tem um Conhecimento Prévio Suficiente sobre o Tópico`__, pois o exemplo pode não adicionar **Valor Significativo à Resposta Gerada**.
 ---
 
-📝 **Primeiro Prompt One-Shot**
+📝 **Primeiro Prompt One-Shot Simples utilizando Papeis**
+
+1. Limpar todos os Prompting do ChatGPT **(Clear)**
+  - Volte para o projeto, no primeiro chat clique em: __`3 Pontinhos`__, selecione: __`Excluir`__ depois: __`Excluir`__
+---
 
 ```txt
 Atue como um Administrador de Redes com experiência em ambientes corporativos. Explique de 
@@ -110,8 +125,13 @@ para a Indústria), SESI (Educação Base para os Funcionários da Indústria), 
 Laser e Cultura), destacando os principais componentes, serviços e boas práticas utilizando
 sistemas operacionais Microsoft Windows e GNU/Linux.
 ```
+---
 
 🧪 **Laboratório 02: Utilizando o One-Shot no ChatGPT para documentar a Importação da VM**
+
+1. Limpar todos os Prompting do ChatGPT **(Clear)**
+  - Volte para o projeto, no primeiro chat clique em: __`3 Pontinhos`__, selecione: __`Excluir`__ depois: __`Excluir`__
+---
 
 ```txt
 Atue como um Administrador de Redes com experiência em ambientes corporativos, virtualização e
@@ -121,8 +141,9 @@ Criar um procedimento (Passo-a-Passo), detalhado (De forma Simples, Objetivo, Di
 importação da Imagem da Máquina Virtual (OVA) do GNU/Linux Ubuntu Server 22.04.4 LTS no Oracle
 VirtualBOX versão 7.2 rodando no Microsoft Windows 11.
 
-Com base na documentação e informações de rede do computador Desktop Local, essa imagem precisa
-ser configurada em Modo Bridge (Ponte) para acesso remoto na rede do cliente via SSH.
+Com base na documentação e informações de rede do computador Desktop Local adicionada em Fontes, 
+essa imagem precisa ser configurada em Modo Bridge (Ponte) para acesso remoto na rede do cliente
+via SSH.
 
 Exemplo: Criar uma documentação baseada em etapas: Etapa 01: Abrir o VirtualBOX, clicar em:
 Arquivo, selecionar: Importar Appliance, utilizar tabelas em Markdown e Ícones para facilitar
@@ -132,10 +153,16 @@ No final de cada procedimento adicionar uma opção: Observação e descrever in
 do processo de importação da máquina virtual e cuidados para funcionar em outros ambientes que
 não seja a rede do laboratório de informática.
 
-Saída final do arquivo adicionar: Data / Hora da documentar e deixar no formato Markdown para
-copiar e colar na documentação que está sendo elaborada no Microsoft Visual Studio (VSCode)
+Não adicionar informações que não seja relevante a importação da máquina virtual, Exemplo: 
+Configuração da Placa de Rede no Linux, Configuração do Firewall, Configuração do SSH, etc.
+
+Saída final do arquivo adicionar: Data / Hora da execução da documentação no formato Markdown.
 ```
 ---
+
+**OBSERVAÇÃO:** Executar o mesmo prompt adicionando no final o texto: Saída final do arquivo 
+adicionar: Data / Hora da execução da documentação e disponibilizar o arquivo para download no 
+formato Markdown.
 
 📝 **Registro das atividades:**
 
