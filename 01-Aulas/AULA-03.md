@@ -122,8 +122,8 @@ Atue como um Administrador de Redes com experiência em ambientes corporativos. 
 forma técnica e objetiva como funciona uma rede de computadores em uma empresa de pequeno a 
 grande porte do ramo de educação, Exemplo: SENAC (Educação para o Comércio), SENAI (Educação
 para a Indústria), SESI (Educação Base para os Funcionários da Indústria), SESC (Educação, 
-Laser e Cultura), destacando os principais componentes, serviços e boas práticas utilizando
-sistemas operacionais Microsoft Windows e GNU/Linux.
+Laser e Cultura do Comércio), destacando os principais componentes, serviços e boas práticas
+utilizando sistemas operacionais Microsoft Windows e GNU/Linux.
 ```
 ---
 
