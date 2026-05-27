@@ -162,7 +162,7 @@ Saída final do arquivo adicionar: Data / Hora da execução da documentação n
 
 **OBSERVAÇÃO:** Executar o mesmo prompt adicionando no final o texto: Saída final do arquivo 
 adicionar: Data / Hora da execução da documentação e disponibilizar o arquivo para download no 
-formato Markdown.
+formato Markdown com o nome: aula03-vm.md.
 
 📝 **Registro das atividades:**
 
