@@ -239,7 +239,27 @@ sudo lsof -i -P -n
 4. O que foi validado manualmente e o que foi removido por ser inventado pela IA
 ---
 
-📝 **Enviando o terceiro versionamento da documentação para o Repositório Remoto no Github**
+💻 **Gerando a Topologia Física e Lógica do Servidor Ubuntu Server:**
+
+1. Utilizar a ferramento: Lucid Chart (Free): https://www.lucidchart.com/pages/pt
+2. Fazer o cadastro da Conta Free: Clique em <Cadaste-se Gratuitamente>
+3. Selecione a opção: Gratuito (Free) US$ 0 UDD, Clique em: <Teste Grátis>
+4. Recomendo: Criar uma Conta ou Utilizar uma Conta do Gmail, clique em: <Continuar com o Google>
+
+💻 **Criando a Topologia Física e Lógica do Servidor Ubuntu Server:**
+
+1. No Dashboard do Lucid, clique em: <+ Novo>
+2. Selecione: Lucidchart - Documento em Branco
+3. No Documento em Branco clique em: IA da Lucid
+4. Copiar e colocar o prompt abaixo:
+
+```txt
+Criar uma topologia de rede física e lógica da implementação de um servidor GNU/Linux Ubuntu Server rodando no seguinte cenário local.
+
+Desktop Windows 11, rodando o VirtualBOX, máquina virtual do Ubuntu Server rodando Localhost, com rede em Modo Bridge e conexão externa via SSH utilizando a rede cabeada do Laboratório de Informática: 10.24.82.0/24
+```
+
+📝 **Enviando o quarto versionamento da documentação para o Repositório Remoto no Github**
 ```bash
 #Verificando se tem atualizações no repositório remoto do Github
 git pull
