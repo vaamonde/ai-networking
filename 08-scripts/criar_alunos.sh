@@ -42,7 +42,7 @@ for i in $(seq -w 1 $TOTAL); do
             --create-home \
             --shell /bin/bash \
             --no-user-group \
-            --ingroup "$GRUPO" \
+            --gid "$GRUPO" \
             "$USUARIO"
 
         # Define a senha
