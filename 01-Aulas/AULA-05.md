@@ -54,7 +54,7 @@ sudo systemctl list-units --type=service --state=running
 
 🧠 **IA deve te ajudar em:**
 
-1. Solicitar para a **IA (AI)** __`Consolidar os Dados`__ em uma única **Tabela em Markdown**, associando as Portas de Serviços com os Serviços que estão rodando no servidor, removendo todas as informações desnecessário (irrelevantes) para a geração da documentação.
+1. Solicitar para a **IA (AI)** __`Consolidar os Dados`__ em uma única **Tabela em Markdown**, associando as Portas de Serviços com os Serviços que estão rodando no servidor, removendo todas as informações desnecessárias **(Irrelevantes)** para a geração da documentação.
 2. Após __`Estruturar a Documentação`__ com base nos dados coletados, solicitar para **IA (AI) Sugerir Melhorias de Otimização e Hardening (ou Fortificação)**, para os serviços: 
   - Serviço do OpenSSH Server;
   - Serviço do Apache2 Server;
