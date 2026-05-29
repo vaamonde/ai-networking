@@ -266,7 +266,7 @@ Criar uma topologia de rede física e lógica da implementação de um servidor 
 Desktop Windows 11, rodando o VirtualBOX, máquina virtual do Ubuntu Server rodando Localhost, com rede em Modo Bridge e conexão externa via SSH utilizando a rede cabeada do Laboratório de Informática: 10.24.82.0/24
 ```
 
-📝 **Enviando o quarto versionamento da documentação para o Repositório Remoto no Github**
+📝 **Enviando o terceiro versionamento da documentação para o Repositório Remoto no Github**
 ```bash
 #Verificando se tem atualizações no repositório remoto do Github
 git pull

@@ -178,7 +178,7 @@ formato Markdown com o nome: aula03-vm.md.
 3. Copiar a saída do ChatGPT para o arquivo: **aula03-vm.md**
 ---
 
-📝 **Enviando o primeiro versionamento da documentação para o Repositório Remoto no Github**
+📝 **Enviando o segundo versionamento da documentação para o Repositório Remoto no Github**
 ```bash
 #Verificando se tem atualizações no repositório remoto
 #opção do comando git: pull (puxar as atualizações do repositório remoto para o repositório local)

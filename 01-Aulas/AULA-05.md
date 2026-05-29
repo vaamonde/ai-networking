@@ -55,7 +55,7 @@ sudo systemctl list-units --type=service --state=running
 🧠 **IA deve te ajudar em:**
 
 1. Solicitar para a **IA (AI)** __`Consolidar os Dados`__ em uma única **Tabela em Markdown**, associando as Portas de Serviços com os Serviços que estão rodando no servidor, removendo todas as informações desnecessárias **(Irrelevantes)** para a geração da documentação.
-2. Após __`Estruturar a Documentação`__ com base nos dados coletados, solicitar para **IA (AI) Sugerir Melhorias de Otimização e Hardening (ou Fortificação)**, para os serviços: 
+2. Após __`Estruturar a Documentação`__ com base nos dados coletados, solicitar para **IA (AI) Sugerir Melhorias de Otimização e Hardening (ou Fortificação/Endurecimento)**, para os serviços: 
   - Serviço do OpenSSH Server;
   - Serviço do Apache2 Server;
   - Serviço do Apache Tomcat Server;
@@ -125,4 +125,20 @@ sudo systemctl list-units --type=service --state=running
 2. Prompt refinado para coletar os dados reais do servidor 
 3. Resposta IA (com os dados reais do servidor, sem inventar nada)
 4. O que foi validado manualmente e o que foi removido por ser inventado pela IA
+---
+
+📝 **Enviando o quarto versionamento da documentação para o Repositório Remoto no Github**
+```bash
+#Verificando se tem atualizações no repositório remoto do Github
+git pull
+
+#Adicionando todas as mudanças dos arquivos no repositório local
+git add .
+
+#Comitando todas as mudanças dos arquivos no repositório local
+git commit -m "Aula 05 - IA como SysAdmin de Redes GNU/Linux"
+
+#Enviando todas as mudanças dos arquivos do repositório local para o remoto
+git push
+```
 ---
