@@ -167,7 +167,8 @@ Ubuntu Server versão 24.04.4 LTS, Container e Docker
 
 [Contexto]
 A organização precisa padronizar a documentação técnica de seus servidores GNU/Linux que estão
-rodando os Containers via Docker-CE para facilitar auditorias, troubleshooting e gestão de ativos.
+rodando os Containers via Docker-CE para facilitar auditorias, troubleshooting (Analise de 
+Problemas) e gestão de ativos (Inventário).
 
 [Escopo]
 Com base nas informações coletadas manualmente, separar, agrupar e padronizar os valores em
@@ -176,12 +177,13 @@ categorias como por exemplo:
 1. Informações Gerais do Servidor
 2. Informações de Hardware do Servidor
 3. Informações de Rede do Servidor
-4. Informações e Serviços e Processos
-5. Informações de Softwares de Atualização
+4. Informações de Serviços e Processos
+5. Informações de Softwares e Atualização
 
 [Procedimento]
-Utilizar a saídas dos comandos executados no GNU/Linux Ubuntu Server (versão 24.04 LTS),
-para criar as categorias, sem a necessidade de mostrar os comandos pois já foram executados
+Utilizar a saídas dos comandos executados no GNU/Linux Ubuntu Server (versão 24.04 LTS),para 
+criar as categorias, sem a necessidade de mostrar os comandos, eles já foram executados no
+servidor manualmente.
 
 [Formato]
 Saída obrigatória no padrão de tabela Markdown com ícones para facilitar a leitura e entendimento
@@ -192,21 +194,21 @@ Saída obrigatória no padrão de tabela Markdown com ícones para facilitar a l
 Exemplo:
 | Categoria | Descrição     | Configuração   |
 |-----------|---------------|----------------|
-| Rede      | Endereço IPv4 | 192.168.0.10/24|
+| Rede      | Endereço IPv4 | 10.24.82.200/24|
 
 [Camada de Tradução]
 1. Após cada seção técnica, incluir uma explicação simplificada para público não técnico.
-2. Não traduzir termos técnicos como por exemplo: Snapshots - Fotografia do Momento
+2. Não traduzir termos técnicos como por exemplo: Snapshots - Fotografia do Momento.
 
 Exemplo:
 "Este servidor possui 4GB de memória RAM, o que pode limitar o desempenho em horários de pico."
-"Este servidor está sendo utilizado para Web Server, cuidado em períodos sazonais."
+"Este servidor está sendo utilizado para Web Server, cuidado nos períodos sazonais."
 
 [Interação]
-Não fazer perguntas ao usuário trabalhar apenas com os dados disponíveis anexado.
+Não fazer perguntas ao usuário, trabalhar apenas com os dados disponíveis anexado.
 
 [Público]
-Gerentes de TI e equipe administrativa, com baixo conhecimento técnico em GNU/Linux e Docker-CE
+Gerentes de TI e Equipe administrativa, com baixo conhecimento técnico em GNU/Linux e Docker-CE.
 
 [Saída]
 Salvar o resultado com o nome do arquivo: ubuntu-docker.md
