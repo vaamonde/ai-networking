@@ -31,9 +31,20 @@
 3. Demonstração ao vivo (usar IA para resolver um problema de rede)
 ---
 
-💻 **Ferramenta da Primeira Aula**
+💻 **Ferramentas da Primeira Aula**
 
 1. Utilizar o **ChatGPT** (OpenAI): https://chatgpt.com/
   - Criar uma conta para **Estudos**
+  - **DICA:** Usar um __`Conta Pessoal`__ e não misturar com outros assuntos
+  - **DICA:** Pode usar a integração com a conta do __`Google`__
 2. Utilizar o **Github** (Microsoft): https://github.com
   - Criar uma conta ou utilizar uma conta existente
+  - **DICA:** Pode usar a integração com a conta do __`Google`__
+3. Utilizar o **Claude** (Anthropic): https://claude.ai/
+  - Criar uma conta para **Estudos**
+  - **DICA:** Usar uma __`Conta Pessoal`__ e não misturar com outros assuntos
+  - **DICA:** Pode usar a integração com a conta do __`Google`__
+4. Utilizar o **Lucidchart** (Lucid): https://www.lucidchart.com
+  - Criar uma conta para **Estudos**
+  - **DICA:** Pode usar a integração com a conta do __`Google`__
+---
